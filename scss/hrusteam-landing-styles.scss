@@ -792,6 +792,7 @@
         float: right;
         margin: 0 300px 100px 0;
         text-decoration: none;
+        border: none;
         &:hover {
           -webkit-box-shadow: 1px 3px 19px 6px rgba(79, 213, 214, 0.28);
           -moz-box-shadow: 1px 3px 19px 6px rgba(79, 213, 214, 0.28);
@@ -832,7 +833,9 @@
 
 /* ----------------------------------------- Tablet Version ------------------------------------------*/
 
-@media screen and (max-width: 750px){
+@media screen
+and (min-device-width : 320px)
+and (max-device-width : 750px){
 
   /* ---------------------------- Header ------------------------------*/
 
@@ -1439,9 +1442,7 @@
 
 }
 
-.before-after-wrapper{
- position: absolute;
-}
+/* ----------------------------------------- Mobile Version ------------------------------------------*/
 
 @media screen and (max-width: 320px){
   .hrus-header {
@@ -2053,11 +2054,15 @@
       &_copyright{
         margin: auto;
         text-align: center;
-        padding: 100px 0 100px 0;
+        padding: 20px 0 20px 0;
         font-size: 15px;
         font-family: Proxima Nova, sans-serif;
         color: #3e3e3e;
       }
     }
   }
+}
+
+.before-after-wrapper{
+  position: absolute;
 }
