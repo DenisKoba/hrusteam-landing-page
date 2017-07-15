@@ -839,7 +839,7 @@
   .hrus-header {
 
     &__red-line{
-      width: 100%;
+      width: 750px;
     }
 
     &__wrapper {
@@ -849,11 +849,11 @@
       }
 
       &_girls-glitch{
-        width: 80%;
+        width: 650px;
       }
 
       &_red-frame{
-        width: 80%;
+        width: 650px;
         height: 300px;
 
         &:after{
@@ -878,7 +878,7 @@
           }
 
           .cross-second{
-            left: 88%;
+            left: 600px;
             top: 50px;
           }
         }
@@ -889,7 +889,7 @@
   /* ---------------------------- Second Section ------------------------------*/
 
   .hrus-second{
-    width: 100%;
+    width: 750px;
     display: block;
     background-color: #ff0112;
     background-image: url("../src/img/hrusteam-second-section-bg.png");
@@ -945,7 +945,7 @@
           display: block;
           position: absolute;
           top: 800px;
-          left: 55%;
+          left: 400px;
           width: 251px;
           height: 735px;
           background-size: cover;
@@ -986,7 +986,7 @@
       &__text-block-one{
         display: block;
         width: 40%;
-        margin: 0 0 0 47%;
+        margin: 0 0 0 400px;
         padding: 40px 0 0 0;
         color: #fff;
 
@@ -1005,7 +1005,7 @@
   /* ---------------------------- Third Section ------------------------------*/
 
   .hrus-third{
-    width: 100%;
+    width: 750px;
     display: block;
     background-image: url(../src/img/hrusteam-third-section-bg.png);
     background-position: 49% 500px;
@@ -1041,14 +1041,14 @@
           display: block;
           position: relative;
           margin: auto;
-          left: 0;
+          left: 335px;
         }
 
         &_phone-with-dog{
           display: block;
           position: absolute;
-          top: 591px;
-          left: -45%;
+          top: 400px;
+          left: -60%;
           width: 602px;
           height: 500px;
           background-repeat: no-repeat;
@@ -1066,8 +1066,8 @@
 
       &__text-block-two{
         display: inline-block;
-        width: 60%;
-        margin: 0 0 0 36%;
+        width: 350px;
+        margin: 0 0 0 350px;
         padding: 40px 0 100px 0;
         color: #ff0112;
       }
@@ -1077,7 +1077,7 @@
   /* ---------------------------- Four Section ------------------------------*/
 
   .hrus-four{
-    width: 100%;
+    width: 750px;
     display: block;
     background-color: #ff0112;
     background-image: url(../src/img/hrusteam-four-section-bg.png);
@@ -1118,7 +1118,7 @@
           display: block;
           position: relative;
           margin: auto;
-          left: 0;
+          left: 335px;
         }
 
         &_girl-glitch{
@@ -1146,8 +1146,8 @@
 
       &__text-block-two{
         display: inline-block;
-        width: 70%;
-        margin: 0 0 0 24%;
+        width: 420px;
+        margin: 0 0 0 250px;
         padding: 40px 0 100px 0;
         color: #fff;
       }
@@ -1157,7 +1157,7 @@
   /* ---------------------------- Fifth Section ------------------------------*/
 
   .hrus-five{
-    width: 100%;
+    width: 750px;
     display: block;
     background-image: url(../src/img/hrusteam-five-section-bg.png);
     background-position: 112% 150px;
@@ -1188,7 +1188,7 @@
           z-index: 5;
           display: block;
           margin: auto;
-          width: 91%;
+          width: 700px;
           height: 440px;
           background-size: cover;
           background-image: url(../src/img/hrusteam-five-screens.png);
@@ -1217,7 +1217,7 @@
   /* ---------------------------- Sixth Section ------------------------------*/
 
   .hrus-six {
-    width: 100%;
+    width: 750px;
     display: block;
     background-image: url(../src/img/hrusteam-six-section-bg.png);
     background-repeat: no-repeat;
@@ -1233,7 +1233,7 @@
 
       &__wrapper {
         position: absolute;
-        width: 100%;
+        width: 750px;
         display: block;
 
         &_bottom-screen-1{
@@ -1242,7 +1242,7 @@
           position: relative;
           margin: 40px auto;
           top: 40px;
-          width: 90%;
+          width: 700px;
           background-repeat: no-repeat;
           background-image: url(../src/img/hrusteam-bottom-screen-1.png);
         }
@@ -1253,7 +1253,7 @@
           position: relative;
           display: block;
           margin: 80px auto;
-          width: 90%;
+          width: 700px;
           height: 601px;
           background-repeat: no-repeat;
           background-image: url(../src/img/hrusteam-bottom-screen-2.png);
@@ -1271,9 +1271,9 @@
 
         &_figures-wrapper{
           vertical-align: top;
-          margin: 0 0 0 20px;
+          margin: 0 0 0 10px;
           display: inline-block;
-          width: 30%;
+          width: 230px;
           height: auto;
 
 
@@ -1357,7 +1357,7 @@
   /* ---------------------------- Footer  ------------------------------*/
 
   .hrus-footer {
-    width: 100%;
+    width: 750px;
     display: block;
     background-image: url(../src/img/hrusteam-footer-bg.png);
     background-repeat: no-repeat;
