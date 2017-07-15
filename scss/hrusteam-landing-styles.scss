@@ -833,7 +833,9 @@
 
 /* ----------------------------------------- Tablet Version ------------------------------------------*/
 
-@media screen and (max-width: 750px){
+@media screen and
+    (min-device-width : 320px)
+and (max-device-width : 750px){
 
   /* ---------------------------- Header ------------------------------*/
 

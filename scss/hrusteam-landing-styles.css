@@ -627,7 +627,7 @@
     left: 792px !important;
     transition: 2s; } }
 /* ----------------------------------------- Tablet Version ------------------------------------------*/
-@media screen and (max-width: 750px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 750px) {
   /* ---------------------------- Header ------------------------------*/
   .hrus-header__red-line {
     width: 750px; }
