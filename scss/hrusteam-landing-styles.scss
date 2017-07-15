@@ -833,9 +833,7 @@
 
 /* ----------------------------------------- Tablet Version ------------------------------------------*/
 
-@media screen
-and (min-device-width : 320px)
-and (max-device-width : 750px){
+@media screen and (max-width : 1200px){
 
   /* ---------------------------- Header ------------------------------*/
 
@@ -967,7 +965,7 @@ and (max-device-width : 750px){
 
         &_sticker-task{
           background-image: url(../src/img/hrusteam-task.png);
-          left: 0;
+          left: 100px;
           top: 470px;
           position: relative;
           display: block;
@@ -1044,7 +1042,7 @@ and (max-device-width : 750px){
           display: block;
           position: relative;
           margin: auto;
-          left: 335px;
+          left: 100px;
         }
 
         &_phone-with-dog{
@@ -1121,7 +1119,7 @@ and (max-device-width : 750px){
           display: block;
           position: relative;
           margin: auto;
-          left: 335px;
+          left: 100px;
         }
 
         &_girl-glitch{
@@ -1922,33 +1920,33 @@ and (max-device-width : 750px){
 
 
           .before-one{
-            top: 0;
-            left: 0;
+            top: -135px;
+            left: 50px;
           }
 
           .after-one{
-            top: 0;
-            left: 0;
+            top: -201px;
+            left: 71px;
           }
 
           .before-two{
-            top: 0;
-            left: 0;
+            top: -50px;
+            left: 100px;
           }
 
           .after-two{
-            top: 0;
-            left: 0;
+            left: 22px;
+            top: -95px;
           }
 
           .before-three{
-            top: 0;
-            left: 0;
+            left: 130px;
+            top: -216px;
           }
 
           .after-three{
-            top: 0;
-            left: 0;
+            left: 190px;
+            top: -80px;
           }
 
           .figures-text{
