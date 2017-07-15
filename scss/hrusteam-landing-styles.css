@@ -627,7 +627,7 @@
     left: 792px !important;
     transition: 2s; } }
 /* ----------------------------------------- Tablet Version ------------------------------------------*/
-@media screen and (min-device-width: 320px) and (max-device-width: 750px) {
+@media screen and (max-width: 1200px) {
   /* ---------------------------- Header ------------------------------*/
   .hrus-header__red-line {
     width: 750px; }
@@ -714,7 +714,7 @@
           margin: auto; }
         .hrus-second .hrus-second-section__wrapper_sticker-task {
           background-image: url(../src/img/hrusteam-task.png);
-          left: 0;
+          left: 100px;
           top: 470px;
           position: relative;
           display: block;
@@ -770,7 +770,7 @@
           display: block;
           position: relative;
           margin: auto;
-          left: 335px; }
+          left: 100px; }
         .hrus-third .hrus-third-section__wrapper_phone-with-dog {
           display: block;
           position: absolute;
@@ -825,7 +825,7 @@
           display: block;
           position: relative;
           margin: auto;
-          left: 335px; }
+          left: 100px; }
         .hrus-four .hrus-four-section__wrapper_girl-glitch {
           display: block;
           position: absolute;
@@ -1412,23 +1412,23 @@
           width: 95%;
           height: auto; }
           .hrus-six .hrus-six-section__wrapper_figures-wrapper .before-one {
-            top: 0;
-            left: 0; }
+            top: -135px;
+            left: 50px; }
           .hrus-six .hrus-six-section__wrapper_figures-wrapper .after-one {
-            top: 0;
-            left: 0; }
+            top: -201px;
+            left: 71px; }
           .hrus-six .hrus-six-section__wrapper_figures-wrapper .before-two {
-            top: 0;
-            left: 0; }
+            top: -50px;
+            left: 100px; }
           .hrus-six .hrus-six-section__wrapper_figures-wrapper .after-two {
-            top: 0;
-            left: 0; }
+            left: 22px;
+            top: -95px; }
           .hrus-six .hrus-six-section__wrapper_figures-wrapper .before-three {
-            top: 0;
-            left: 0; }
+            left: 130px;
+            top: -216px; }
           .hrus-six .hrus-six-section__wrapper_figures-wrapper .after-three {
-            top: 0;
-            left: 0; }
+            left: 190px;
+            top: -80px; }
           .hrus-six .hrus-six-section__wrapper_figures-wrapper .figures-text {
             font-family: "Proxima Nova", sans-serif;
             font-size: 16px;
