@@ -1,643 +1,164 @@
 /* ----------------------------------------- Desctop Version ------------------------------------------*/
 /* ---------------------------- general styles ------------------------------*/
-@media screen and (max-width: 4000px) {
-  body {
-    margin: 0; }
+body {
+  margin: 0; }
 
-  .pattern-style {
-    width: 410px;
-    height: 500px;
-    position: absolute;
-    display: block;
-    background-repeat: no-repeat; }
+.pattern-style {
+  width: 410px;
+  height: 500px;
+  position: absolute;
+  display: block;
+  background-repeat: no-repeat; }
 
-  .text-style {
-    font-size: 22px;
-    font-weight: 200;
-    font-family: Proxima Nova, sans-serif; }
+.text-style {
+  font-size: 22px;
+  font-weight: 200;
+  font-family: Proxima Nova, sans-serif; }
 
-  .sticker-style {
-    background-repeat: no-repeat;
-    width: 320px;
-    height: 172px;
-    display: block;
-    position: absolute; }
+.sticker-style {
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 172px;
+  display: block;
+  position: absolute; }
 
-  .cross-red-small {
-    position: absolute;
+.cross-red-small {
+  position: absolute;
+  width: 25px;
+  height: 6px;
+  display: block;
+  background-color: #ff0112; }
+  .cross-red-small:after {
+    content: "";
     width: 25px;
     height: 6px;
     display: block;
-    background-color: #ff0112; }
-    .cross-red-small:after {
-      content: "";
-      width: 25px;
-      height: 6px;
-      display: block;
-      position: absolute;
-      transform: rotate(90deg);
-      background-color: #ff0112; }
-
-  .cross-red-medium {
     position: absolute;
+    transform: rotate(90deg);
+    background-color: #ff0112; }
+
+.cross-red-medium {
+  position: absolute;
+  width: 35px;
+  height: 8px;
+  display: block;
+  background-color: #ff0112; }
+  .cross-red-medium:after {
+    content: "";
     width: 35px;
     height: 8px;
     display: block;
-    background-color: #ff0112; }
-    .cross-red-medium:after {
-      content: "";
-      width: 35px;
-      height: 8px;
-      display: block;
-      position: absolute;
-      transform: rotate(90deg);
-      background-color: #ff0112; }
-
-  .cross-red-large {
     position: absolute;
+    transform: rotate(90deg);
+    background-color: #ff0112; }
+
+.cross-red-large {
+  position: absolute;
+  width: 50px;
+  height: 11px;
+  display: block;
+  background-color: #ff0112; }
+  .cross-red-large:after {
+    content: "";
     width: 50px;
     height: 11px;
     display: block;
-    background-color: #ff0112; }
-    .cross-red-large:after {
-      content: "";
-      width: 50px;
-      height: 11px;
-      display: block;
-      position: absolute;
-      transform: rotate(90deg);
-      background-color: #ff0112; }
-
-  .cross-white-small {
     position: absolute;
+    transform: rotate(90deg);
+    background-color: #ff0112; }
+
+.cross-white-small {
+  position: absolute;
+  width: 25px;
+  height: 6px;
+  display: block;
+  background-color: #fff; }
+  .cross-white-small:after {
+    content: "";
     width: 25px;
     height: 6px;
     display: block;
-    background-color: #fff; }
-    .cross-white-small:after {
-      content: "";
-      width: 25px;
-      height: 6px;
-      display: block;
-      position: absolute;
-      transform: rotate(90deg);
-      background-color: #fff; }
-
-  .cross-white-medium {
     position: absolute;
+    transform: rotate(90deg);
+    background-color: #fff; }
+
+.cross-white-medium {
+  position: absolute;
+  width: 35px;
+  height: 8px;
+  display: block;
+  background-color: #fff; }
+  .cross-white-medium:after {
+    content: "";
     width: 35px;
     height: 8px;
     display: block;
-    background-color: #fff; }
-    .cross-white-medium:after {
-      content: "";
-      width: 35px;
-      height: 8px;
-      display: block;
-      position: absolute;
-      transform: rotate(90deg);
-      background-color: #fff; }
-
-  .cross-white-large {
     position: absolute;
+    transform: rotate(90deg);
+    background-color: #fff; }
+
+.cross-white-large {
+  position: absolute;
+  width: 50px;
+  height: 11px;
+  display: block;
+  background-color: #fff; }
+  .cross-white-large:after {
+    content: "";
     width: 50px;
     height: 11px;
     display: block;
+    position: absolute;
+    transform: rotate(90deg);
     background-color: #fff; }
-    .cross-white-large:after {
-      content: "";
-      width: 50px;
-      height: 11px;
-      display: block;
-      position: absolute;
-      transform: rotate(90deg);
-      background-color: #fff; }
 
-  /* ---------------------------- Header ------------------------------*/
-  .hrus-header {
-    width: 100%;
-    display: block; }
-    .hrus-header__red-line {
-      width: 98%;
-      height: 10px;
-      background-color: #ff0112;
-      display: block; }
-    .hrus-header__wrapper {
-      width: 1000px;
-      display: block;
-      margin: auto;
-      background-image: url(../src/img/hrusteam-confetti.png);
-      background-position: center; }
-      .hrus-header__wrapper_logo {
-        display: block;
-        margin: 30px auto;
-        width: 121px;
-        height: 50px; }
-      .hrus-header__wrapper_girls-glitch {
-        width: 800px;
-        display: block;
-        margin: 107px auto;
-        -webkit-box-shadow: 0px 1px 24px 0px #d8d8d8;
-        -moz-box-shadow: 0px 1px 24px 0px #d6d6d6;
-        box-shadow: 0px 1px 24px 0px #d6d6d6; }
-      .hrus-header__wrapper_red-frame {
-        display: block;
-        width: 800px;
-        height: 380px;
-        position: absolute;
-        border-color: #ff0112;
-        border-style: solid;
-        border-width: 8px;
-        margin: 50px 0 0 28px; }
-        .hrus-header__wrapper_red-frame:after {
-          content: "";
-          background-image: url(../src/img/hrusteam-logo.png);
-          background-repeat: no-repeat;
-          width: 293px;
-          height: 172px;
-          display: block;
-          position: absolute;
-          top: -79px;
-          left: -13px; }
-      .hrus-header__wrapper_header-cross-wrapper {
-        width: 1000px;
-        position: absolute; }
-        .hrus-header__wrapper_header-cross-wrapper .cross-first {
-          transform: rotate(32deg);
-          top: 40px;
-          left: -100px; }
-        .hrus-header__wrapper_header-cross-wrapper .cross-second {
-          transform: rotate(36deg);
-          left: 754px;
-          top: 50px; }
-        .hrus-header__wrapper_header-cross-wrapper .cross-third {
-          transform: rotate(30deg);
-          top: 300px;
-          left: 1100px; }
-        .hrus-header__wrapper_header-cross-wrapper .cross-fourth {
-          transform: rotate(32deg);
-          top: 400px;
-          left: -100px; }
-        .hrus-header__wrapper_header-cross-wrapper .cross-fifth {
-          transform: rotate(32deg);
-          top: 415px;
-          left: 712px; }
-
-  /* ---------------------------- Second Section ------------------------------*/
-  .hrus-second {
-    width: 100%;
-    display: block;
-    background-color: #ff0112;
-    background-image: url("../src/img/hrusteam-second-section-bg.png");
-    background-position: 56% -348px;
-    background-repeat: no-repeat; }
-    .hrus-second .hrus-second-section {
-      width: 1000px;
-      display: block;
-      margin: auto;
-      overflow: auto; }
-      .hrus-second .hrus-second-section__wrapper {
-        position: absolute;
-        width: 1000px;
-        display: block; }
-        .hrus-second .hrus-second-section__wrapper_cross-first {
-          top: 502px;
-          left: 1000px;
-          transform: rotate(68deg); }
-        .hrus-second .hrus-second-section__wrapper_cross-second {
-          top: 100%;
-          left: 700px;
-          transform: rotate(50deg); }
-        .hrus-second .hrus-second-section__wrapper_cross-third {
-          top: 1069px;
-          left: 1100px;
-          transform: rotate(50deg); }
-        .hrus-second .hrus-second-section__wrapper_cross-fourth {
-          top: 100px;
-          left: 738px;
-          transform: rotate(55deg); }
-        .hrus-second .hrus-second-section__wrapper_cross-fifth {
-          top: 479px;
-          left: -100px;
-          transform: rotate(68deg); }
-        .hrus-second .hrus-second-section__wrapper_hand {
-          background-repeat: no-repeat;
-          background-image: url(../src/img/hrusteam-hand.png);
-          background-position: -8px -187px;
-          display: block;
-          position: absolute;
-          width: 600px;
-          height: 600px;
-          left: -300px; }
-        .hrus-second .hrus-second-section__wrapper_circle {
-          display: block;
-          position: absolute;
-          width: 700px;
-          height: 300px;
-          border-top-left-radius: 700px;
-          border-top-right-radius: 700px;
-          border: 40px solid #fff;
-          top: 900px;
-          left: 600px; }
-        .hrus-second .hrus-second-section__wrapper_jumping-man {
-          display: block;
-          position: absolute;
-          top: 550px;
-          left: 700px;
-          width: 300px;
-          height: 900px;
-          background-repeat: no-repeat;
-          background-image: url(../src/img/hrusteam-man-jumping.png); }
-        .hrus-second .hrus-second-section__wrapper_sticker-client {
-          background-image: url(../src/img/hrusteam-client.png);
-          top: 30px;
-          left: 696px; }
-        .hrus-second .hrus-second-section__wrapper_sticker-task {
-          background-image: url(../src/img/hrusteam-task.png);
-          top: 550px;
-          left: 300px; }
-        .hrus-second .hrus-second-section__wrapper_pattern-left {
-          background-image: url(../src/img/hrusteam-puttern-white.png);
-          transform: rotate(250deg);
-          top: 700px;
-          left: -550px;
-          background-size: 113%;
-          background-position-y: -60px; }
-        .hrus-second .hrus-second-section__wrapper_pattern-right {
-          background-image: url(../src/img/hrusteam-puttern-white.png);
-          transform: rotate(233deg);
-          top: -152px;
-          left: 1114px;
-          background-size: 127%; }
-      .hrus-second .hrus-second-section__heading {
-        font-family: Arial, sans-serif;
-        margin: 200px 0 0 400px;
-        display: inline-block;
-        font-size: 22px;
-        font-weight: 200;
-        border-left: 10px solid;
-        padding-left: 20px;
-        color: #fff; }
-      .hrus-second .hrus-second-section__text-block-one {
-        display: inline-block;
-        width: 600px;
-        margin: 0 0 0 400px;
-        padding: 40px 0 0 0;
-        color: #fff; }
-      .hrus-second .hrus-second-section__text-block-two {
-        width: 550px;
-        display: inline-block;
-        padding: 250px 0 40px 0;
-        color: #fff; }
-
-  /* ---------------------------- Third Section ------------------------------*/
-  .hrus-third {
-    width: 100%;
-    display: block;
-    background-image: url(../src/img/hrusteam-third-section-bg.png);
-    background-position: 56% 245px;
-    background-repeat: no-repeat; }
-    .hrus-third .hrus-third-section {
-      width: 1000px;
-      display: block;
-      margin: auto;
-      overflow: auto; }
-      .hrus-third .hrus-third-section__wrapper {
-        position: absolute;
-        width: 1000px;
-        display: block; }
-        .hrus-third .hrus-third-section__wrapper_cross-first {
-          top: 257px;
-          left: -100px;
-          transform: rotate(68deg); }
-        .hrus-third .hrus-third-section__wrapper_cross-second {
-          top: 357px;
-          left: 600px;
-          transform: rotate(68deg); }
-        .hrus-third .hrus-third-section__wrapper_sticker-situation {
-          background-image: url(../src/img/hrusteam-situation.png);
-          top: 54px;
-          left: -24px; }
-        .hrus-third .hrus-third-section__wrapper_sticker-problems {
-          background-image: url(../src/img/hrusteam-problems.png);
-          top: 419px;
-          left: 696px; }
-        .hrus-third .hrus-third-section__wrapper_phone-with-dog {
-          display: block;
-          position: absolute;
-          top: 415px;
-          left: -161px;
-          width: 602px;
-          height: 500px;
-          background-repeat: no-repeat;
-          background-image: url(../src/img/hrusteam-iphone-dog.png); }
-      .hrus-third .hrus-third-section__text-block-one {
-        width: 550px;
-        display: inline-block;
-        padding: 250px 0 200px 0;
-        color: #ff0112; }
-      .hrus-third .hrus-third-section__text-block-two {
-        display: inline-block;
-        width: 600px;
-        margin: 0 0 0 400px;
-        padding: 40px 0 100px 0;
-        color: #ff0112; }
-
-  /* ---------------------------- Four Section ------------------------------*/
-  .hrus-four {
-    width: 100%;
-    display: block;
-    background-color: #ff0112;
-    background-image: url(../src/img/hrusteam-four-section-bg.png);
-    background-position: 57% 86px;
-    background-repeat: no-repeat; }
-    .hrus-four .hrus-four-section {
-      width: 1000px;
-      display: block;
-      margin: auto;
-      overflow: auto; }
-      .hrus-four .hrus-four-section__wrapper {
-        position: absolute;
-        width: 1000px;
-        display: block; }
-        .hrus-four .hrus-four-section__wrapper_cross-first {
-          top: 93px;
-          left: 500px;
-          transform: rotate(31deg); }
-        .hrus-four .hrus-four-section__wrapper_cross-second {
-          left: 807px;
-          transform: rotate(68deg); }
-        .hrus-four .hrus-four-section__wrapper_cross-third {
-          top: 183px;
-          left: 1090px;
-          transform: rotate(114deg); }
-        .hrus-four .hrus-four-section__wrapper_sticker-insight {
-          background-image: url(../src/img/hrusteam-insight.png);
-          top: 54px;
-          left: -24px; }
-        .hrus-four .hrus-four-section__wrapper_sticker-idea {
-          background-image: url(../src/img/hrusteam-idea.png);
-          top: 419px;
-          left: 696px; }
-        .hrus-four .hrus-four-section__wrapper_girl-glitch {
-          display: block;
-          position: absolute;
-          top: 489px;
-          left: -86px;
-          width: 685px;
-          height: 800px;
-          background-repeat: no-repeat;
-          background-image: url(../src/img/hrusteam-girl-glitch.png); }
-      .hrus-four .hrus-four-section__text-block-one {
-        width: 550px;
-        display: inline-block;
-        padding: 250px 0 200px 0;
-        color: #fff; }
-      .hrus-four .hrus-four-section__text-block-two {
-        display: inline-block;
-        width: 600px;
-        margin: 0 0 0 400px;
-        padding: 40px 0 100px 0;
-        color: #fff; }
-
-  /* ---------------------------- Fifth Section ------------------------------*/
-  .hrus-five {
-    width: 100%;
-    display: block;
-    background-image: url(../src/img/hrusteam-five-section-bg.png);
-    background-position: 112% 150px;
-    background-repeat: no-repeat;
-    height: 910px;
-    background-size: 150%; }
-    .hrus-five .hrus-five-section {
-      width: 1000px;
-      display: block;
-      margin: auto;
-      overflow: auto; }
-      .hrus-five .hrus-five-section__wrapper {
-        position: absolute;
-        width: 1000px;
-        display: block; }
-        .hrus-five .hrus-five-section__wrapper_screen-one {
-          display: block;
-          position: absolute;
-          top: 338px;
-          left: 205px;
-          width: 270px;
-          height: 418px;
-          background-repeat: no-repeat;
-          background-image: url(../src/img/hrusteam-screen-moove-1.png);
-          z-index: -1; }
-        .hrus-five .hrus-five-section__wrapper_screen-two {
-          display: block;
-          z-index: -2;
-          position: absolute;
-          top: 271px;
-          left: 280px;
-          width: 270px;
-          height: 418px;
-          background-repeat: no-repeat;
-          background-image: url(../src/img/hrusteam-screen-moove-2.png); }
-        .hrus-five .hrus-five-section__wrapper_screen-three {
-          z-index: 5;
-          display: block;
-          margin: 250px 225px;
-          width: 432px;
-          height: 647px;
-          background-repeat: no-repeat;
-          background-image: url(../src/img/hrusteam-screen-moove-3.png); }
-        .hrus-five .hrus-five-section__wrapper_screen-four {
-          z-index: -2;
-          display: block;
-          position: absolute;
-          top: 273px;
-          left: 480px;
-          width: 270px;
-          height: 418px;
-          background-repeat: no-repeat;
-          background-image: url(../src/img/hrusteam-screen-moove-4.png); }
-        .hrus-five .hrus-five-section__wrapper_screen-five {
-          display: block;
-          position: absolute;
-          top: 340px;
-          left: 592px;
-          width: 270px;
-          height: 418px;
-          background-repeat: no-repeat;
-          background-image: url(../src/img/hrusteam-screen-moove-5.png);
-          z-index: -1; }
-        .hrus-five .hrus-five-section__wrapper_sticker-realization {
-          background-image: url(../src/img/hrusteam-realization.png);
-          top: 100px;
-          left: 696px; }
-
-  /* ---------------------------- Sixth Section ------------------------------*/
-  .hrus-six {
-    width: 100%;
-    display: block;
-    background-image: url(../src/img/hrusteam-six-section-bg.png);
-    background-repeat: no-repeat;
-    background-color: #ff0112;
-    height: 1050px;
-    background-position: 71% -400px; }
-    .hrus-six .hrus-six-section {
-      width: 1000px;
-      display: block;
-      margin: auto;
-      overflow: auto; }
-      .hrus-six .hrus-six-section__wrapper {
-        position: absolute;
-        width: 1000px;
-        display: block; }
-        .hrus-six .hrus-six-section__wrapper_bottom-screen-1 {
-          display: block;
-          position: absolute;
-          top: -145px;
-          left: 0;
-          width: 526px;
-          height: 507px;
-          background-repeat: no-repeat;
-          background-image: url(../src/img/hrusteam-bottom-screen-1.png); }
-        .hrus-six .hrus-six-section__wrapper_bottom-screen-2 {
-          display: block;
-          position: absolute;
-          top: -93px;
-          left: 550px;
-          width: 427px;
-          height: 601px;
-          background-repeat: no-repeat;
-          background-image: url(../src/img/hrusteam-bottom-screen-2.png); }
-        .hrus-six .hrus-six-section__wrapper_sticker-results {
-          background-image: url(../src/img/hrusteam-results.png);
-          top: 386px;
-          left: -24px; }
-        .hrus-six .hrus-six-section__wrapper_figures-wrapper {
-          display: inline-block;
-          width: 320px;
-          height: 250px;
-          vertical-align: top;
-          margin: 600px 0 0 0; }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .before-one {
-            top: -135px;
-            left: 50px; }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .after-one {
-            top: -200px;
-            left: 80px; }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .before-two {
-            top: -50px;
-            left: 110px; }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .after-two {
-            left: 20px;
-            top: -95px; }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .before-three {
-            left: 150px;
-            top: -216px; }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .after-three {
-            left: 200px;
-            top: -80px; }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .figures-text {
-            font-family: "Proxima Nova", sans-serif;
-            font-size: 22px;
-            font-weight: 200;
-            display: block;
-            color: #fff;
-            text-align: center;
-            margin: auto;
-            height: 100px;
-            padding: 20px 0 20px 0; }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .before-after-text {
-            font-family: Arial, sans-serif;
-            font-size: 16px;
-            font-weight: 200;
-            display: block;
-            color: #fff;
-            position: absolute;
-            margin: 0; }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .figures-style {
-            width: 300px;
-            height: 250px;
-            display: block;
-            margin: auto;
-            background-repeat: no-repeat;
-            background-position: center; }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .before-after-figures {
-            background-image: url("../src/img/hrusteam-before-after-figures.png"); }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .new-users-figures {
-            background-image: url("../src/img/hrusteam-new-users-figures.png"); }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .subscribers-figures {
-            background-image: url("../src/img/hrusteam-subscribers-figures.png"); }
-
-  /* ---------------------------- Footer  ------------------------------*/
-  .hrus-footer {
-    width: 100%;
-    display: block;
-    background-image: url(../src/img/hrusteam-footer-bg.png);
-    background-repeat: no-repeat;
-    background-position: center; }
-    .hrus-footer__wrapper {
-      width: 1000px;
-      display: block;
-      margin: auto; }
-      .hrus-footer__wrapper_text {
-        font-family: Arial, sans-serif;
-        font-size: 35px;
-        font-weight: 700;
-        color: #ff0112;
-        display: block;
-        margin: auto;
-        width: 699px;
-        text-shadow: 2px 2px 0px #140000;
-        padding: 100px 0 60px 0; }
-      .hrus-footer__wrapper_button {
-        padding: 20px 80px;
-        font-size: 14px;
-        font-weight: 100;
-        font-family: Arial Black, sans-serif;
-        color: #fff;
-        background-color: #4fd5d6;
-        cursor: pointer;
-        float: right;
-        margin: 0 300px 100px 0;
-        text-decoration: none;
-        border: none; }
-        .hrus-footer__wrapper_button:hover {
-          -webkit-box-shadow: 1px 3px 19px 6px rgba(79, 213, 214, 0.28);
-          -moz-box-shadow: 1px 3px 19px 6px rgba(79, 213, 214, 0.28);
-          box-shadow: 1px 3px 19px 6px rgba(79, 213, 214, 0.28); }
-      .hrus-footer__wrapper_copyright {
-        vertical-align: bottom;
-        padding: 100px 0 100px 0;
-        font-size: 15px;
-        font-family: Proxima Nova, sans-serif;
-        color: #3e3e3e; }
-
-  .js-move-screen-one {
-    left: 5px !important;
-    transition: 2s; }
-
-  .js-move-screen-two {
-    left: 180px !important;
-    transition: 1s; }
-
-  .js-move-screen-four {
-    left: 580px !important;
-    transition: 1s; }
-
-  .js-move-screen-five {
-    left: 792px !important;
-    transition: 2s; } }
-/* ----------------------------------------- Tablet Version ------------------------------------------*/
-@media screen and (max-width: 1200px) {
-  /* ---------------------------- Header ------------------------------*/
+/* ---------------------------- Header ------------------------------*/
+.hrus-header {
+  width: 100%;
+  display: block; }
   .hrus-header__red-line {
-    width: 750px; }
+    width: 98%;
+    height: 10px;
+    background-color: #ff0112;
+    display: block; }
   .hrus-header__wrapper {
-    width: 750px; }
+    width: 1000px;
+    display: block;
+    margin: 20px auto;
+    background-image: url(../src/img/hrusteam-confetti.png);
+    background-position: center;
+    overflow: hidden;
+    padding: 0 0 100px 0;
+    width: 1000px;
+    background-size: cover; }
+    .hrus-header__wrapper_logo {
+      display: block;
+      margin: 30px auto;
+      width: 121px;
+      height: 50px; }
     .hrus-header__wrapper_girls-glitch {
-      width: 650px; }
+      width: 800px;
+      height: 400px;
+      display: block;
+      margin: 107px auto;
+      -webkit-box-shadow: 0px 1px 24px 0px #d8d8d8;
+      -moz-box-shadow: 0px 1px 24px 0px #d6d6d6;
+      box-shadow: 0px 1px 24px 0px #d6d6d6;
+      background-image: url("../src/img/hrusteam-girls-glitch.gif");
+      background-position: center;
+      -o-background-size: cover;
+      background-repeat: no-repeat; }
+    .hrus-header__wrapper_girls-glitch-responsive {
+      display: none; }
     .hrus-header__wrapper_red-frame {
-      width: 650px;
-      height: 300px; }
+      display: block;
+      width: 800px;
+      height: 380px;
+      position: absolute;
+      border-color: #ff0112;
+      border-style: solid;
+      border-width: 8px;
+      margin: 50px 0 0 28px; }
       .hrus-header__wrapper_red-frame:after {
         content: "";
         background-image: url(../src/img/hrusteam-logo.png);
@@ -649,319 +170,750 @@
         top: -79px;
         left: -13px; }
     .hrus-header__wrapper_header-cross-wrapper {
-      width: 100%;
+      width: 1000px;
       position: absolute; }
-      .hrus-header__wrapper_header-cross-wrapper .cross-first, .hrus-header__wrapper_header-cross-wrapper .cross-third, .hrus-header__wrapper_header-cross-wrapper .cross-fourth, .hrus-header__wrapper_header-cross-wrapper .cross-fifth {
-        display: none; }
+      .hrus-header__wrapper_header-cross-wrapper .cross-first {
+        transform: rotate(32deg);
+        top: 40px;
+        left: -100px; }
       .hrus-header__wrapper_header-cross-wrapper .cross-second {
-        left: 600px;
+        transform: rotate(36deg);
+        left: 754px;
         top: 50px; }
+      .hrus-header__wrapper_header-cross-wrapper .cross-fourth {
+        transform: rotate(32deg);
+        top: 400px;
+        left: -100px; }
+      .hrus-header__wrapper_header-cross-wrapper .cross-fifth {
+        transform: rotate(32deg);
+        top: 415px;
+        left: 712px; }
 
-  /* ---------------------------- Second Section ------------------------------*/
+/* ---------------------------- Second Section ------------------------------*/
+.hrus-second {
+  width: 100%;
+  display: block;
+  background-color: #ff0112;
+  background-image: url("../src/img/hrusteam-second-section-bg.png");
+  background-position: 56% -348px;
+  background-repeat: no-repeat; }
+  .hrus-second .hrus-second-section {
+    width: 1000px;
+    display: block;
+    margin: auto;
+    overflow: auto; }
+    .hrus-second .hrus-second-section__wrapper {
+      position: absolute;
+      width: 1000px;
+      display: block; }
+      .hrus-second .hrus-second-section__wrapper_cross-first {
+        top: 502px;
+        left: 1000px;
+        transform: rotate(68deg); }
+      .hrus-second .hrus-second-section__wrapper_cross-second {
+        top: 100%;
+        left: 700px;
+        transform: rotate(50deg); }
+      .hrus-second .hrus-second-section__wrapper_cross-third {
+        top: 1069px;
+        left: 1100px;
+        transform: rotate(50deg); }
+      .hrus-second .hrus-second-section__wrapper_cross-fourth {
+        top: 100px;
+        left: 738px;
+        transform: rotate(55deg); }
+      .hrus-second .hrus-second-section__wrapper_cross-fifth {
+        top: 479px;
+        left: -100px;
+        transform: rotate(68deg); }
+      .hrus-second .hrus-second-section__wrapper_hand {
+        background-repeat: no-repeat;
+        background-image: url(../src/img/hrusteam-hand.png);
+        background-position: -8px -187px;
+        display: block;
+        position: absolute;
+        width: 600px;
+        height: 600px;
+        left: -300px; }
+      .hrus-second .hrus-second-section__wrapper_circle {
+        display: block;
+        position: absolute;
+        width: 700px;
+        height: 300px;
+        border-top-left-radius: 700px;
+        border-top-right-radius: 700px;
+        border: 40px solid #fff;
+        top: 900px;
+        left: 600px; }
+      .hrus-second .hrus-second-section__wrapper_jumping-man {
+        display: block;
+        position: absolute;
+        top: 550px;
+        left: 700px;
+        width: 300px;
+        height: 900px;
+        background-repeat: no-repeat;
+        background-image: url(../src/img/hrusteam-man-jumping.png); }
+      .hrus-second .hrus-second-section__wrapper_sticker-client {
+        background-image: url(../src/img/hrusteam-client.png);
+        top: 30px;
+        left: 696px; }
+      .hrus-second .hrus-second-section__wrapper_sticker-task {
+        background-image: url(../src/img/hrusteam-task.png);
+        top: 550px;
+        left: 300px; }
+      .hrus-second .hrus-second-section__wrapper_pattern-left {
+        background-image: url(../src/img/hrusteam-puttern-white.png);
+        transform: rotate(250deg);
+        top: 700px;
+        left: -550px;
+        background-size: 113%;
+        background-position-y: -60px; }
+      .hrus-second .hrus-second-section__wrapper_pattern-right {
+        background-image: url(../src/img/hrusteam-puttern-white.png);
+        transform: rotate(233deg);
+        top: -152px;
+        left: 1114px;
+        background-size: 127%; }
+    .hrus-second .hrus-second-section .responsive-task-sticker {
+      display: none; }
+    .hrus-second .hrus-second-section .responsive-client-sticker {
+      display: none; }
+    .hrus-second .hrus-second-section__heading {
+      font-family: Arial, sans-serif;
+      margin: 200px 0 0 400px;
+      display: inline-block;
+      font-size: 22px;
+      font-weight: 200;
+      border-left: 10px solid;
+      padding-left: 20px;
+      color: #fff; }
+    .hrus-second .hrus-second-section__text-block-one {
+      display: inline-block;
+      width: 600px;
+      margin: 0 0 0 400px;
+      padding: 40px 0 0 0;
+      color: #fff; }
+    .hrus-second .hrus-second-section__text-block-two {
+      width: 550px;
+      display: inline-block;
+      padding: 250px 0 40px 0;
+      color: #fff; }
+
+/* ---------------------------- Third Section ------------------------------*/
+.hrus-third {
+  width: 100%;
+  display: block;
+  background-image: url(../src/img/hrusteam-third-section-bg.png);
+  background-position: 56% 245px;
+  background-repeat: no-repeat; }
+  .hrus-third .hrus-third-section {
+    width: 1000px;
+    display: block;
+    margin: auto;
+    overflow: auto; }
+    .hrus-third .hrus-third-section__wrapper {
+      position: absolute;
+      width: 1000px;
+      display: block; }
+      .hrus-third .hrus-third-section__wrapper_cross-first {
+        top: 257px;
+        left: -100px;
+        transform: rotate(68deg); }
+      .hrus-third .hrus-third-section__wrapper_cross-second {
+        top: 357px;
+        left: 600px;
+        transform: rotate(68deg); }
+      .hrus-third .hrus-third-section__wrapper_sticker-situation {
+        background-image: url(../src/img/hrusteam-situation.png);
+        top: 54px;
+        left: -24px; }
+      .hrus-third .hrus-third-section__wrapper_sticker-problems {
+        background-image: url(../src/img/hrusteam-problems.png);
+        top: 419px;
+        left: 696px; }
+      .hrus-third .hrus-third-section__wrapper_phone-with-dog {
+        display: block;
+        position: absolute;
+        top: 415px;
+        left: -161px;
+        width: 602px;
+        height: 500px;
+        background-repeat: no-repeat;
+        background-image: url(../src/img/hrusteam-iphone-dog.png); }
+    .hrus-third .hrus-third-section .responsive-situation-sticker {
+      display: none; }
+    .hrus-third .hrus-third-section .responsive-problem-sticker {
+      display: none; }
+    .hrus-third .hrus-third-section__text-block-one {
+      width: 550px;
+      display: inline-block;
+      padding: 250px 0 200px 0;
+      color: #ff0112; }
+    .hrus-third .hrus-third-section__text-block-two {
+      display: inline-block;
+      width: 600px;
+      margin: 0 0 0 400px;
+      padding: 40px 0 100px 0;
+      color: #ff0112; }
+
+/* ---------------------------- Four Section ------------------------------*/
+.hrus-four {
+  width: 100%;
+  display: block;
+  background-color: #ff0112;
+  background-image: url(../src/img/hrusteam-four-section-bg.png);
+  background-position: 57% 86px;
+  background-repeat: no-repeat; }
+  .hrus-four .hrus-four-section {
+    width: 1000px;
+    display: block;
+    margin: auto;
+    overflow: auto; }
+    .hrus-four .hrus-four-section__wrapper {
+      position: absolute;
+      width: 1000px;
+      display: block; }
+      .hrus-four .hrus-four-section__wrapper_cross-first {
+        top: 93px;
+        left: 500px;
+        transform: rotate(31deg); }
+      .hrus-four .hrus-four-section__wrapper_cross-second {
+        left: 807px;
+        transform: rotate(68deg); }
+      .hrus-four .hrus-four-section__wrapper_cross-third {
+        top: 183px;
+        left: 1090px;
+        transform: rotate(114deg); }
+      .hrus-four .hrus-four-section__wrapper_sticker-insight {
+        background-image: url(../src/img/hrusteam-insight.png);
+        top: 54px;
+        left: -24px; }
+      .hrus-four .hrus-four-section__wrapper_sticker-idea {
+        background-image: url(../src/img/hrusteam-idea.png);
+        top: 419px;
+        left: 696px; }
+      .hrus-four .hrus-four-section__wrapper_girl-glitch {
+        display: block;
+        position: absolute;
+        top: 489px;
+        left: -86px;
+        width: 685px;
+        height: 800px;
+        background-repeat: no-repeat;
+        background-image: url(../src/img/hrusteam-girl-glitch.png); }
+    .hrus-four .hrus-four-section .responsive-insight-sticker {
+      display: none; }
+    .hrus-four .hrus-four-section .responsive-idea-sticker {
+      display: none; }
+    .hrus-four .hrus-four-section__text-block-one {
+      width: 550px;
+      display: inline-block;
+      padding: 250px 0 200px 0;
+      color: #fff; }
+    .hrus-four .hrus-four-section__text-block-two {
+      display: inline-block;
+      width: 600px;
+      margin: 0 0 0 400px;
+      padding: 40px 0 100px 0;
+      color: #fff; }
+
+/* ---------------------------- Fifth Section ------------------------------*/
+.hrus-five {
+  width: 100%;
+  display: block;
+  background-image: url(../src/img/hrusteam-five-section-bg.png);
+  background-position: 112% 150px;
+  background-repeat: no-repeat;
+  height: 910px;
+  background-size: 150%; }
+  .hrus-five .hrus-five-section {
+    width: 1000px;
+    display: block;
+    margin: auto;
+    overflow: auto; }
+    .hrus-five .hrus-five-section .realization-screens {
+      display: none; }
+    .hrus-five .hrus-five-section .responsive-relization-sticker {
+      display: none; }
+    .hrus-five .hrus-five-section__wrapper {
+      position: absolute;
+      width: 1000px;
+      display: block; }
+      .hrus-five .hrus-five-section__wrapper_screen-one {
+        display: block;
+        position: absolute;
+        top: 338px;
+        left: 205px;
+        width: 270px;
+        height: 418px;
+        background-repeat: no-repeat;
+        background-image: url(../src/img/hrusteam-screen-moove-1.png);
+        z-index: -1; }
+      .hrus-five .hrus-five-section__wrapper_screen-two {
+        display: block;
+        z-index: -2;
+        position: absolute;
+        top: 271px;
+        left: 280px;
+        width: 270px;
+        height: 418px;
+        background-repeat: no-repeat;
+        background-image: url(../src/img/hrusteam-screen-moove-2.png); }
+      .hrus-five .hrus-five-section__wrapper_screen-three {
+        z-index: 5;
+        display: block;
+        margin: 250px 225px;
+        width: 432px;
+        height: 647px;
+        background-repeat: no-repeat;
+        background-image: url(../src/img/hrusteam-screen-moove-3.png); }
+      .hrus-five .hrus-five-section__wrapper_screen-four {
+        z-index: -2;
+        display: block;
+        position: absolute;
+        top: 273px;
+        left: 480px;
+        width: 270px;
+        height: 418px;
+        background-repeat: no-repeat;
+        background-image: url(../src/img/hrusteam-screen-moove-4.png); }
+      .hrus-five .hrus-five-section__wrapper_screen-five {
+        display: block;
+        position: absolute;
+        top: 340px;
+        left: 592px;
+        width: 270px;
+        height: 418px;
+        background-repeat: no-repeat;
+        background-image: url(../src/img/hrusteam-screen-moove-5.png);
+        z-index: -1; }
+      .hrus-five .hrus-five-section__wrapper_sticker-realization {
+        background-image: url(../src/img/hrusteam-realization.png);
+        top: 100px;
+        left: 696px; }
+
+/* ---------------------------- Sixth Section ------------------------------*/
+.hrus-six {
+  width: 100%;
+  display: block;
+  background-image: url(../src/img/hrusteam-six-section-bg.png);
+  background-repeat: no-repeat;
+  background-color: #ff0112;
+  height: 1050px;
+  background-position: 71% -400px; }
+  .hrus-six .hrus-six-section {
+    width: 1000px;
+    display: block;
+    margin: auto;
+    overflow: auto; }
+    .hrus-six .hrus-six-section .responsive-bottom-screen-one {
+      display: none; }
+    .hrus-six .hrus-six-section .responsive-bottom-screen-two {
+      display: none; }
+    .hrus-six .hrus-six-section__results-wrapper {
+      width: 1000px;
+      display: block;
+      margin: auto;
+      overflow: hidden;
+      height: 400px;
+      padding: 600px 0 0 0; }
+      .hrus-six .hrus-six-section__results-wrapper .figures-wrapper {
+        display: inline-block;
+        width: 320px;
+        height: 250px;
+        vertical-align: top;
+        margin: 0; }
+        .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .figures-text {
+          font-family: "Proxima Nova", sans-serif;
+          font-size: 22px;
+          font-weight: 200;
+          display: block;
+          color: #fff;
+          text-align: center;
+          margin: auto;
+          height: 100px;
+          padding: 20px 0 20px 0; }
+        .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .figures-style {
+          width: 300px;
+          height: 250px;
+          display: block;
+          margin: auto;
+          background-repeat: no-repeat;
+          background-position: center; }
+        .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .before-after-figures {
+          background-image: url("../src/img/hrusteam-before-after-figures.png"); }
+        .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .new-users-figures {
+          background-image: url("../src/img/hrusteam-new-users-figures.png"); }
+        .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .subscribers-figures {
+          background-image: url("../src/img/hrusteam-subscribers-figures.png"); }
+        .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .before-after-wrapper {
+          position: absolute; }
+          .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .before-after-wrapper .before-after-text {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            font-weight: 200;
+            display: block;
+            color: #fff;
+            position: absolute;
+            margin: 0; }
+          .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .before-after-wrapper .before-one {
+            top: -135px;
+            left: 50px; }
+          .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .before-after-wrapper .after-one {
+            top: -200px;
+            left: 80px; }
+          .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .before-after-wrapper .before-two {
+            top: -50px;
+            left: 110px; }
+          .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .before-after-wrapper .after-two {
+            left: 20px;
+            top: -95px; }
+          .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .before-after-wrapper .before-three {
+            left: 150px;
+            top: -216px; }
+          .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .before-after-wrapper .after-three {
+            left: 200px;
+            top: -80px; }
+    .hrus-six .hrus-six-section__wrapper {
+      position: absolute;
+      width: 1000px;
+      display: block; }
+      .hrus-six .hrus-six-section__wrapper_bottom-screen-1 {
+        display: block;
+        position: absolute;
+        top: -145px;
+        left: 0;
+        width: 526px;
+        height: 507px;
+        background-repeat: no-repeat;
+        background-image: url(../src/img/hrusteam-bottom-screen-1.png); }
+      .hrus-six .hrus-six-section__wrapper_bottom-screen-2 {
+        display: block;
+        position: absolute;
+        top: -93px;
+        left: 550px;
+        width: 427px;
+        height: 601px;
+        background-repeat: no-repeat;
+        background-image: url(../src/img/hrusteam-bottom-screen-2.png); }
+      .hrus-six .hrus-six-section__wrapper_sticker-results {
+        background-image: url(../src/img/hrusteam-results.png);
+        top: 386px;
+        left: -24px; }
+
+/* ---------------------------- Footer  ------------------------------*/
+.hrus-footer {
+  width: 100%;
+  display: block;
+  background-image: url(../src/img/hrusteam-footer-bg.png);
+  background-repeat: no-repeat;
+  background-position: center; }
+  .hrus-footer__wrapper {
+    width: 1000px;
+    display: block;
+    margin: auto; }
+    .hrus-footer__wrapper_text {
+      font-family: Arial, sans-serif;
+      font-size: 35px;
+      font-weight: 700;
+      color: #ff0112;
+      display: block;
+      margin: auto;
+      width: 699px;
+      text-shadow: 2px 2px 0px #140000;
+      padding: 100px 0 60px 0; }
+    .hrus-footer__wrapper_button {
+      padding: 20px 80px;
+      font-size: 14px;
+      font-weight: 100;
+      font-family: Arial Black, sans-serif;
+      color: #fff;
+      background-color: #4fd5d6;
+      cursor: pointer;
+      float: right;
+      margin: 0 300px 100px 0;
+      text-decoration: none;
+      border: none; }
+      .hrus-footer__wrapper_button:hover {
+        -webkit-box-shadow: 1px 3px 19px 6px rgba(79, 213, 214, 0.28);
+        -moz-box-shadow: 1px 3px 19px 6px rgba(79, 213, 214, 0.28);
+        box-shadow: 1px 3px 19px 6px rgba(79, 213, 214, 0.28); }
+    .hrus-footer__wrapper_copyright {
+      vertical-align: bottom;
+      padding: 100px 0 11px 0;
+      font-size: 15px;
+      margin: 0;
+      font-family: Proxima Nova, sans-serif;
+      color: #3e3e3e; }
+
+.js-move-screen-one {
+  left: 5px !important;
+  transition: 2s; }
+
+.js-move-screen-two {
+  left: 180px !important;
+  transition: 1s; }
+
+.js-move-screen-four {
+  left: 580px !important;
+  transition: 1s; }
+
+.js-move-screen-five {
+  left: 792px !important;
+  transition: 2s; }
+
+/********************************************************   Mobile Version ************************************/
+@media screen and (max-width: 1200px) and (min-width: 500px) {
+  .hrus-header {
+    width: 100%; }
+    .hrus-header__red-line {
+      width: 100%; }
+    .hrus-header__wrapper {
+      width: 100%; }
+      .hrus-header__wrapper_girls-glitch {
+        display: none; }
+      .hrus-header__wrapper_girls-glitch-responsive {
+        display: block;
+        width: 90%;
+        height: auto;
+        margin: auto; }
+      .hrus-header__wrapper_red-frame {
+        display: none; }
+        .hrus-header__wrapper_red-frame:after {
+          display: none; }
+      .hrus-header__wrapper_header-cross-wrapper {
+        display: none; }
   .hrus-second {
-    width: 750px;
+    width: 100%;
     display: block;
     background-color: #ff0112;
-    background-image: url("../src/img/hrusteam-second-section-bg.png");
-    background-position: 56% -348px;
-    background-repeat: no-repeat; }
+    background-image: none; }
     .hrus-second .hrus-second-section {
-      width: 750px;
+      width: 100%;
       display: block;
       margin: auto;
       overflow: auto; }
-      .hrus-second .hrus-second-section__wrapper {
+      .hrus-second .hrus-second-section:before {
+        content: "";
+        width: 200px;
+        height: 258px;
+        display: block;
         position: absolute;
-        width: 100%;
-        display: block; }
-        .hrus-second .hrus-second-section__wrapper_cross-first {
-          display: none; }
-        .hrus-second .hrus-second-section__wrapper_cross-second {
-          display: none; }
-        .hrus-second .hrus-second-section__wrapper_cross-third {
-          display: none; }
-        .hrus-second .hrus-second-section__wrapper_cross-fourth {
-          display: none; }
-        .hrus-second .hrus-second-section__wrapper_cross-fifth {
-          display: none; }
-        .hrus-second .hrus-second-section__wrapper_hand {
-          background-repeat: no-repeat;
-          background-image: url(../src/img/hrusteam-hand.png);
+        background-size: cover;
+        background-image: url(../src/img/hrusteam-hand.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 27px 0 0 -83px; }
+      .hrus-second .hrus-second-section__wrapper {
+        display: none; }
+      .hrus-second .hrus-second-section .responsive-client-sticker {
+        display: block;
+        background-image: url(../src/img/hrusteam-client.png);
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 139px;
+        margin: 40px auto;
+        background-size: cover; }
+      .hrus-second .hrus-second-section .responsive-task-sticker {
+        display: block;
+        background-image: url(../src/img/hrusteam-task.png);
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 139px;
+        margin: 40px auto;
+        background-size: cover; }
+        .hrus-second .hrus-second-section .responsive-task-sticker:before {
+          content: "";
+          width: 107px;
+          height: 313px;
           display: block;
           position: absolute;
-          top: 150px;
           background-size: cover;
-          width: 400px;
-          height: 509px;
+          background-image: url(../src/img/hrusteam-man-jumping.png);
+          background-repeat: no-repeat;
           background-position: center;
-          left: -15%; }
-        .hrus-second .hrus-second-section__wrapper_jumping-man {
-          display: block;
-          position: absolute;
-          top: 800px;
-          left: 400px;
-          width: 251px;
-          height: 735px;
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-image: url(../src/img/hrusteam-man-jumping.png); }
-        .hrus-second .hrus-second-section__wrapper_sticker-client {
-          background-image: url(../src/img/hrusteam-client.png);
-          left: 0;
-          top: 50px;
-          position: relative;
-          display: block;
-          margin: auto; }
-        .hrus-second .hrus-second-section__wrapper_sticker-task {
-          background-image: url(../src/img/hrusteam-task.png);
-          left: 100px;
-          top: 470px;
-          position: relative;
-          display: block;
-          margin: 40px auto; }
+          margin: -67px 0 0 -194px;
+          transform: rotate(45deg); }
       .hrus-second .hrus-second-section__heading {
-        font-family: Arial,sans-serif;
-        margin: 200px 0 0 400px;
-        display: inline-block;
+        font-family: Arial, sans-serif;
+        margin: 0 auto;
+        display: block;
         font-size: 22px;
         font-weight: 200;
-        border-left: 10px solid;
-        padding-left: 20px;
-        color: #fff; }
+        border-left: none;
+        color: #fff;
+        width: 30%;
+        text-align: center;
+        padding: 20px 0 0 0; }
       .hrus-second .hrus-second-section__text-block-one {
         display: block;
-        width: 40%;
-        margin: 0 0 0 400px;
+        width: 80%;
+        margin: auto;
         padding: 40px 0 0 0;
         color: #fff; }
       .hrus-second .hrus-second-section__text-block-two {
-        width: 44%;
+        width: 80%;
         display: block;
-        padding: 250px 0 40px 0;
-        color: #fff;
-        margin: 0 0 0 10px; }
-
-  /* ---------------------------- Third Section ------------------------------*/
+        padding: 50px 0 40px 0;
+        margin: auto;
+        color: #fff; }
   .hrus-third {
-    width: 750px;
+    width: 100%;
     display: block;
-    background-image: url(../src/img/hrusteam-third-section-bg.png);
-    background-position: 49% 500px;
-    background-repeat: no-repeat; }
+    background-image: none; }
     .hrus-third .hrus-third-section {
-      width: 750px;
+      width: 100%;
       display: block;
       margin: auto;
       overflow: auto; }
       .hrus-third .hrus-third-section__wrapper {
-        position: absolute;
-        width: 100%;
-        display: block; }
-        .hrus-third .hrus-third-section__wrapper_cross-first {
-          display: none; }
-        .hrus-third .hrus-third-section__wrapper_cross-second {
-          display: none; }
-        .hrus-third .hrus-third-section__wrapper_sticker-situation {
-          background-image: url(../src/img/hrusteam-situation.png);
-          top: 54px;
-          left: -24px; }
-        .hrus-third .hrus-third-section__wrapper_sticker-problems {
-          background-image: url(../src/img/hrusteam-problems.png);
-          display: block;
-          position: relative;
-          margin: auto;
-          left: 100px; }
-        .hrus-third .hrus-third-section__wrapper_phone-with-dog {
+        display: none; }
+      .hrus-third .hrus-third-section .responsive-situation-sticker {
+        display: block;
+        background-image: url(../src/img/hrusteam-situation.png);
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 139px;
+        margin: 40px auto;
+        background-size: cover; }
+        .hrus-third .hrus-third-section .responsive-situation-sticker:before {
+          content: "";
+          width: 335px;
+          height: 279px;
           display: block;
           position: absolute;
-          top: 400px;
-          left: -60%;
-          width: 602px;
-          height: 500px;
+          background-size: cover;
+          background-image: url(../src/img/hrusteam-iphone-dog.png);
           background-repeat: no-repeat;
-          background-image: url(../src/img/hrusteam-iphone-dog.png); }
+          background-position: center;
+          margin: -62px 0 0 -338px; }
+      .hrus-third .hrus-third-section .responsive-problem-sticker {
+        display: block;
+        background-image: url(../src/img/hrusteam-problems.png);
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 139px;
+        margin: 40px auto;
+        background-size: cover; }
       .hrus-third .hrus-third-section__text-block-one {
-        width: 65%;
-        display: inline-block;
-        padding: 250px 0 200px 0;
-        color: #ff0112;
-        margin: 0 0 0 10px; }
-      .hrus-third .hrus-third-section__text-block-two {
-        display: inline-block;
-        width: 350px;
-        margin: 0 0 0 350px;
-        padding: 40px 0 100px 0;
+        width: 80%;
+        display: block;
+        padding: 0;
+        margin: 50px auto;
         color: #ff0112; }
-
-  /* ---------------------------- Four Section ------------------------------*/
+      .hrus-third .hrus-third-section__text-block-two {
+        width: 80%;
+        display: block;
+        padding: 0;
+        margin: 50px auto;
+        color: #ff0112; }
   .hrus-four {
-    width: 750px;
+    width: 100%;
     display: block;
     background-color: #ff0112;
-    background-image: url(../src/img/hrusteam-four-section-bg.png);
-    background-position: 57% 86px;
-    background-repeat: no-repeat; }
+    background-image: none; }
     .hrus-four .hrus-four-section {
-      width: 750px;
+      width: 100%;
       display: block;
       margin: auto;
       overflow: auto; }
       .hrus-four .hrus-four-section__wrapper {
-        position: absolute;
-        width: 100%;
-        display: block; }
-        .hrus-four .hrus-four-section__wrapper_cross-first {
-          display: none; }
-        .hrus-four .hrus-four-section__wrapper_cross-second {
-          display: none; }
-        .hrus-four .hrus-four-section__wrapper_cross-third {
-          display: none; }
-        .hrus-four .hrus-four-section__wrapper_sticker-insight {
-          background-image: url(../src/img/hrusteam-insight.png);
-          top: 54px;
-          left: -24px; }
-        .hrus-four .hrus-four-section__wrapper_sticker-idea {
-          background-image: url(../src/img/hrusteam-idea.png);
-          display: block;
-          position: relative;
-          margin: auto;
-          left: 100px; }
-        .hrus-four .hrus-four-section__wrapper_girl-glitch {
+        display: none; }
+      .hrus-four .hrus-four-section .responsive-insight-sticker {
+        display: block;
+        background-image: url(../src/img/hrusteam-insight.png);
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 139px;
+        margin: 40px auto;
+        background-size: cover; }
+      .hrus-four .hrus-four-section .responsive-idea-sticker {
+        display: block;
+        background-image: url(../src/img/hrusteam-idea.png);
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 139px;
+        margin: 40px auto;
+        background-size: cover; }
+        .hrus-four .hrus-four-section .responsive-idea-sticker:before {
+          content: "";
+          width: 271px;
+          height: 330px;
           display: block;
           position: absolute;
           background-size: cover;
-          background-position: center;
-          width: 400px;
-          height: 478px;
-          left: -14%;
-          top: 677px;
+          background-image: url(../src/img/hrusteam-girl-glitch.png);
           background-repeat: no-repeat;
-          background-image: url(../src/img/hrusteam-girl-glitch.png); }
+          background-position: center;
+          margin: -86px 0 0 -309px; }
       .hrus-four .hrus-four-section__text-block-one {
-        width: 77%;
-        display: inline-block;
-        padding: 250px 0 200px 0;
-        color: #fff;
-        margin: 0 0 0 10px; }
+        width: 80%;
+        display: block;
+        padding: 0;
+        margin: 50px auto;
+        color: #ffffff; }
       .hrus-four .hrus-four-section__text-block-two {
-        display: inline-block;
-        width: 420px;
-        margin: 0 0 0 250px;
-        padding: 40px 0 100px 0;
-        color: #fff; }
-
-  /* ---------------------------- Fifth Section ------------------------------*/
+        width: 80%;
+        display: block;
+        padding: 0;
+        margin: 50px auto;
+        color: #ffffff; }
   .hrus-five {
-    width: 750px;
-    display: block;
-    background-image: url(../src/img/hrusteam-five-section-bg.png);
-    background-position: 112% 150px;
-    background-repeat: no-repeat;
-    background-size: 150%;
-    height: 690px; }
+    width: 100%;
+    height: auto; }
     .hrus-five .hrus-five-section {
-      width: 750px;
-      display: block;
-      margin: auto;
-      overflow: auto; }
+      width: 100%; }
+      .hrus-five .hrus-five-section .realization-screens {
+        display: block;
+        width: 90%;
+        height: auto;
+        margin: auto; }
+      .hrus-five .hrus-five-section .responsive-relization-sticker {
+        display: block;
+        background-image: url(../src/img/hrusteam-realization.png);
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 139px;
+        margin: 40px auto;
+        background-size: cover; }
       .hrus-five .hrus-five-section__wrapper {
-        position: absolute;
-        width: 100%;
-        display: block; }
-        .hrus-five .hrus-five-section__wrapper_screen-one {
-          display: none; }
-        .hrus-five .hrus-five-section__wrapper_screen-two {
-          display: none; }
-        .hrus-five .hrus-five-section__wrapper_screen-three {
-          z-index: 5;
-          display: block;
-          margin: auto;
-          width: 700px;
-          height: 440px;
-          background-size: cover;
-          background-image: url(../src/img/hrusteam-five-screens.png); }
-        .hrus-five .hrus-five-section__wrapper_screen-four {
-          display: none; }
-        .hrus-five .hrus-five-section__wrapper_screen-five {
-          display: none; }
-        .hrus-five .hrus-five-section__wrapper_sticker-realization {
-          background-image: url(../src/img/hrusteam-realization.png);
-          display: block;
-          position: relative;
-          margin: 30px auto;
-          left: 0;
-          top: 0; }
-
-  /* ---------------------------- Sixth Section ------------------------------*/
+        display: none; }
   .hrus-six {
-    width: 750px;
-    display: block;
-    background-image: url(../src/img/hrusteam-six-section-bg.png);
-    background-repeat: no-repeat;
-    background-color: #ff0112;
-    height: 2000px;
-    background-position: 71% -400px; }
+    width: 100%;
+    height: auto;
+    background-position: 71% -400px;
+    background-image: url("../src/img/hrusteam-four-section-bg.png"); }
     .hrus-six .hrus-six-section {
-      width: 750px;
+      width: 100%;
       display: block;
       margin: auto;
       overflow: auto; }
       .hrus-six .hrus-six-section__wrapper {
-        position: absolute;
-        width: 750px;
-        display: block; }
-        .hrus-six .hrus-six-section__wrapper_bottom-screen-1 {
-          background-position: center;
+        display: none; }
+      .hrus-six .hrus-six-section .responsive-bottom-screen-one {
+        display: block;
+        width: 70%;
+        height: auto;
+        margin: 50px auto; }
+      .hrus-six .hrus-six-section .responsive-bottom-screen-two {
+        display: block;
+        width: 70%;
+        height: auto;
+        margin: 50px auto; }
+      .hrus-six .hrus-six-section__results-wrapper {
+        width: 90%;
+        margin: auto;
+        height: auto;
+        padding: 0; }
+        .hrus-six .hrus-six-section__results-wrapper .figures-wrapper {
           display: block;
-          position: relative;
-          margin: 40px auto;
-          top: 40px;
-          width: 700px;
-          background-repeat: no-repeat;
-          background-image: url(../src/img/hrusteam-bottom-screen-1.png); }
-        .hrus-six .hrus-six-section__wrapper_bottom-screen-2 {
-          background-position: center;
-          left: 0;
-          position: relative;
-          display: block;
-          margin: 80px auto;
-          width: 700px;
-          height: 601px;
-          background-repeat: no-repeat;
-          background-image: url(../src/img/hrusteam-bottom-screen-2.png);
-          top: 0; }
-        .hrus-six .hrus-six-section__wrapper_sticker-results {
-          background-image: url(../src/img/hrusteam-results.png);
-          left: 0;
-          top: 0;
-          position: relative;
-          display: block;
-          margin: auto; }
-        .hrus-six .hrus-six-section__wrapper_figures-wrapper {
+          height: auto;
           vertical-align: top;
-          margin: 0 0 0 10px;
-          display: inline-block;
-          width: 230px;
-          height: auto; }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .before-one {
-            top: -135px;
-            left: 0; }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .after-one {
-            top: -200px;
-            left: 30px; }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .before-two {
-            top: -50px;
-            left: 60px; }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .after-two {
-            left: -30px;
-            top: -95px; }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .before-three {
-            left: 100px;
-            top: -216px; }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .after-three {
-            left: 150px;
-            top: -80px; }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .figures-text {
+          padding: 0;
+          width: 300px;
+          margin: 18px auto; }
+          .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .figures-text {
             font-family: "Proxima Nova", sans-serif;
             font-size: 22px;
             font-weight: 200;
@@ -971,7 +923,7 @@
             margin: auto;
             height: 100px;
             padding: 20px 0 20px 0; }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .before-after-text {
+          .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .before-after-text {
             font-family: Arial, sans-serif;
             font-size: 16px;
             font-weight: 200;
@@ -979,468 +931,325 @@
             color: #fff;
             position: absolute;
             margin: 0; }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .figures-style {
-            width: 100%;
+          .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .figures-style {
+            width: 300px;
             height: 250px;
             display: block;
             margin: auto;
             background-repeat: no-repeat;
             background-position: center; }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .before-after-figures {
+          .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .before-after-figures {
             background-image: url("../src/img/hrusteam-before-after-figures.png"); }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .new-users-figures {
+          .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .new-users-figures {
             background-image: url("../src/img/hrusteam-new-users-figures.png"); }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .subscribers-figures {
+          .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .subscribers-figures {
             background-image: url("../src/img/hrusteam-subscribers-figures.png"); }
-
-  /* ---------------------------- Footer  ------------------------------*/
+          .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .before-after-wrapper {
+            position: absolute; }
+            .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .before-after-wrapper .before-one {
+              top: -135px;
+              left: 50px; }
+            .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .before-after-wrapper .after-one {
+              top: -200px;
+              left: 80px; }
+            .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .before-after-wrapper .before-two {
+              top: -50px;
+              left: 110px; }
+            .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .before-after-wrapper .after-two {
+              left: 20px;
+              top: -95px; }
+            .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .before-after-wrapper .before-three {
+              left: 150px;
+              top: -216px; }
+            .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .before-after-wrapper .after-three {
+              left: 200px;
+              top: -80px; }
   .hrus-footer {
-    width: 750px;
+    width: 100%;
     display: block;
     background-image: url(../src/img/hrusteam-footer-bg.png);
     background-repeat: no-repeat;
     background-position: center; }
     .hrus-footer__wrapper {
-      width: 750px;
+      width: 100%;
       display: block;
       margin: auto; }
       .hrus-footer__wrapper_text {
-        font-family: Arial,sans-serif;
-        font-size: 35px;
+        font-family: Arial, sans-serif;
+        font-size: 20px;
         font-weight: 700;
         color: #ff0112;
         display: block;
         margin: auto;
-        width: 80%;
+        width: 90%;
         text-shadow: 2px 2px 0px #140000;
-        padding: 100px 0 60px 0;
+        padding: 40px 0 60px 0;
         text-align: center; }
       .hrus-footer__wrapper .button-wrapper {
         text-decoration: none; }
       .hrus-footer__wrapper_button {
         padding: 20px 80px;
-        display: block;
-        margin: auto;
         font-size: 14px;
         font-weight: 100;
         font-family: Arial Black, sans-serif;
         color: #fff;
         background-color: #4fd5d6;
         cursor: pointer;
-        text-align: center;
-        text-decoration: none;
         float: none;
-        border: none; }
+        margin: auto;
+        text-decoration: none;
+        border: none;
+        display: block; }
         .hrus-footer__wrapper_button:hover {
           -webkit-box-shadow: 1px 3px 19px 6px rgba(79, 213, 214, 0.28);
           -moz-box-shadow: 1px 3px 19px 6px rgba(79, 213, 214, 0.28);
           box-shadow: 1px 3px 19px 6px rgba(79, 213, 214, 0.28); }
       .hrus-footer__wrapper_copyright {
+        padding: 100px 0 11px 0;
+        font-size: 15px;
+        display: block;
         margin: auto;
         text-align: center;
-        padding: 100px 0 100px 0;
-        font-size: 15px;
         font-family: Proxima Nova, sans-serif;
-        color: #3e3e3e; }
+        color: #3e3e3e; } }
 
-  .js-move-screen-one {
-    left: 5px !important;
-    transition: 2s; }
-
-  .js-move-screen-two {
-    left: 180px !important;
-    transition: 1s; }
-
-  .js-move-screen-four {
-    left: 580px !important;
-    transition: 1s; }
-
-  .js-move-screen-five {
-    left: 792px !important;
-    transition: 2s; } }
-/* ----------------------------------------- Mobile Version ------------------------------------------*/
-@media screen and (max-width: 320px) {
-  .hrus-header__red-line {
+@media screen and (max-width: 499px) and (min-width: 320px) {
+  .hrus-header {
     width: 100%; }
-  .hrus-header__wrapper {
-    width: 320px; }
-    .hrus-header__wrapper_girls-glitch {
-      width: 280px;
-      height: 160px; }
-    .hrus-header__wrapper_red-frame {
-      position: absolute;
-      border-color: #ff0112;
-      border-style: solid;
-      border-width: 8px;
-      margin: 50px 0 0 0;
-      width: 280px;
-      height: 180px; }
-      .hrus-header__wrapper_red-frame:after {
-        content: "";
-        background-image: url(../src/img/hrusteam-logo.png);
-        background-repeat: no-repeat;
-        width: 150px;
-        height: 89px;
-        background-size: cover;
-        display: block;
-        position: absolute;
-        top: -42px;
-        left: -9px; }
-    .hrus-header__wrapper_header-cross-wrapper {
-      width: 100%;
-      position: absolute; }
-      .hrus-header__wrapper_header-cross-wrapper .cross-first, .hrus-header__wrapper_header-cross-wrapper .cross-third, .hrus-header__wrapper_header-cross-wrapper .cross-fourth, .hrus-header__wrapper_header-cross-wrapper .cross-fifth, .hrus-header__wrapper_header-cross-wrapper .cross-second {
+    .hrus-header__red-line {
+      width: 100%; }
+    .hrus-header__wrapper {
+      width: 100%; }
+      .hrus-header__wrapper_girls-glitch {
         display: none; }
-
-  /* ---------------------------- Second Section ------------------------------*/
+      .hrus-header__wrapper_girls-glitch-responsive {
+        display: block;
+        width: 90%;
+        height: auto;
+        margin: auto; }
+      .hrus-header__wrapper_red-frame {
+        display: none; }
+        .hrus-header__wrapper_red-frame:after {
+          display: none; }
+      .hrus-header__wrapper_header-cross-wrapper {
+        display: none; }
   .hrus-second {
     width: 100%;
     display: block;
     background-color: #ff0112;
-    background-image: none;
-    background-position: 56% -348px;
-    background-repeat: no-repeat; }
+    background-image: none; }
     .hrus-second .hrus-second-section {
-      width: 320px;
+      width: 100%;
       display: block;
       margin: auto;
       overflow: auto; }
-      .hrus-second .hrus-second-section__wrapper {
-        position: absolute;
-        width: 100%;
-        display: block; }
-        .hrus-second .hrus-second-section__wrapper_cross-first {
-          display: none; }
-        .hrus-second .hrus-second-section__wrapper_cross-second {
-          display: none; }
-        .hrus-second .hrus-second-section__wrapper_cross-third {
-          display: none; }
-        .hrus-second .hrus-second-section__wrapper_cross-fourth {
-          display: none; }
-        .hrus-second .hrus-second-section__wrapper_cross-fifth {
-          display: none; }
-        .hrus-second .hrus-second-section__wrapper_hand {
-          display: none; }
-        .hrus-second .hrus-second-section__wrapper_jumping-man {
-          display: none;
-          position: absolute;
-          top: 1137px;
-          left: 73%;
-          width: 100px;
-          height: 295px;
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-image: url(../src/img/hrusteam-man-jumping.png); }
-        .hrus-second .hrus-second-section__wrapper_sticker-client {
-          background-image: url(../src/img/hrusteam-client.png);
-          left: 0;
-          top: 50px;
-          position: relative;
-          display: block;
-          margin: auto;
-          background-size: cover;
-          width: 280px;
-          height: 160px; }
-        .hrus-second .hrus-second-section__wrapper_sticker-task {
-          background-image: url(../src/img/hrusteam-task.png);
-          left: 0;
-          top: 380px;
-          position: relative;
-          display: block;
-          margin: 40px auto;
-          background-size: cover;
-          width: 280px;
-          height: 160px; }
-      .hrus-second .hrus-second-section__heading {
-        font-family: Arial,sans-serif;
-        margin: 250px 0 0 50px;
-        display: block;
-        font-size: 16px;
-        font-weight: 200;
-        border-left: 10px solid;
-        padding-left: 20px;
+      .hrus-second .hrus-second-section:before {
+        content: "";
         width: 200px;
-        color: #fff;
-        text-align: center; }
-      .hrus-second .hrus-second-section__text-block-one {
-        text-align: center;
+        height: 258px;
         display: block;
-        width: 95%;
+        position: absolute;
+        background-size: cover;
+        background-image: url(../src/img/hrusteam-hand.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 27px 0 0 -83px; }
+      .hrus-second .hrus-second-section__wrapper {
+        display: none; }
+      .hrus-second .hrus-second-section .responsive-client-sticker {
+        display: block;
+        background-image: url(../src/img/hrusteam-client.png);
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 139px;
+        margin: 40px auto;
+        background-size: cover; }
+      .hrus-second .hrus-second-section .responsive-task-sticker {
+        display: block;
+        background-image: url(../src/img/hrusteam-task.png);
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 139px;
+        margin: 40px auto;
+        background-size: cover; }
+      .hrus-second .hrus-second-section__heading {
+        font-family: Arial, sans-serif;
+        margin: 0 auto;
+        display: block;
+        font-size: 22px;
+        font-weight: 200;
+        border-left: none;
+        color: #fff;
+        width: 30%;
+        text-align: center;
+        padding: 20px 0 0 0; }
+      .hrus-second .hrus-second-section__text-block-one {
+        display: block;
+        width: 80%;
         margin: auto;
         padding: 40px 0 0 0;
-        color: #fff;
-        font-size: 16px; }
+        color: #fff; }
       .hrus-second .hrus-second-section__text-block-two {
-        text-align: center;
-        width: 95%;
+        width: 80%;
         display: block;
-        padding: 250px 0 40px 0;
-        color: #fff;
+        padding: 50px 0 40px 0;
         margin: auto;
-        font-size: 16px; }
-
-  /* ---------------------------- Third Section ------------------------------*/
+        color: #fff; }
   .hrus-third {
     width: 100%;
     display: block;
-    background-image: url(../src/img/hrusteam-third-section-bg.png);
-    background-position: 49% 500px;
-    background-repeat: no-repeat; }
+    background-image: none; }
     .hrus-third .hrus-third-section {
-      width: 320px;
+      width: 100%;
       display: block;
       margin: auto;
       overflow: auto; }
       .hrus-third .hrus-third-section__wrapper {
-        position: absolute;
-        width: 100%;
-        display: block; }
-        .hrus-third .hrus-third-section__wrapper_cross-first {
-          display: none; }
-        .hrus-third .hrus-third-section__wrapper_cross-second {
-          display: none; }
-        .hrus-third .hrus-third-section__wrapper_sticker-situation {
-          background-image: url(../src/img/hrusteam-situation.png);
-          top: 54px;
-          left: 0;
-          background-size: cover;
-          width: 300px;
-          height: 140px;
-          display: block;
-          position: relative;
-          margin: auto; }
-        .hrus-third .hrus-third-section__wrapper_sticker-problems {
-          background-image: url(../src/img/hrusteam-problems.png);
-          display: block;
-          position: relative;
-          margin: auto;
-          left: 0;
-          background-size: cover;
-          width: 300px;
-          height: 140px;
-          top: 200px; }
-        .hrus-third .hrus-third-section__wrapper_phone-with-dog {
-          display: none; }
+        display: none; }
+      .hrus-third .hrus-third-section .responsive-situation-sticker {
+        display: block;
+        background-image: url(../src/img/hrusteam-situation.png);
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 139px;
+        margin: 40px auto;
+        background-size: cover; }
+      .hrus-third .hrus-third-section .responsive-problem-sticker {
+        display: block;
+        background-image: url(../src/img/hrusteam-problems.png);
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 139px;
+        margin: 40px auto;
+        background-size: cover; }
       .hrus-third .hrus-third-section__text-block-one {
-        padding: 250px 0 134px 0;
-        color: #ff0112;
-        text-align: center;
-        font-size: 16px;
+        width: 80%;
         display: block;
-        margin: auto;
-        width: 95%; }
-      .hrus-third .hrus-third-section__text-block-two {
-        text-align: center;
-        font-size: 16px;
-        display: block;
-        margin: auto;
-        width: 95%;
-        padding: 40px 0 100px 0;
+        padding: 0;
+        margin: 50px auto;
         color: #ff0112; }
-
-  /* ---------------------------- Four Section ------------------------------*/
+      .hrus-third .hrus-third-section__text-block-two {
+        width: 80%;
+        display: block;
+        padding: 0;
+        margin: 50px auto;
+        color: #ff0112; }
   .hrus-four {
     width: 100%;
     display: block;
     background-color: #ff0112;
-    background-image: url(../src/img/hrusteam-four-section-bg.png);
-    background-position: 60% 86px;
-    background-repeat: no-repeat; }
+    background-image: none; }
     .hrus-four .hrus-four-section {
-      width: 320px;
+      width: 100%;
       display: block;
       margin: auto;
       overflow: auto; }
       .hrus-four .hrus-four-section__wrapper {
-        position: absolute;
-        width: 100%;
-        display: block; }
-        .hrus-four .hrus-four-section__wrapper_cross-first {
-          display: none; }
-        .hrus-four .hrus-four-section__wrapper_cross-second {
-          display: none; }
-        .hrus-four .hrus-four-section__wrapper_cross-third {
-          display: none; }
-        .hrus-four .hrus-four-section__wrapper_sticker-insight {
-          background-image: url(../src/img/hrusteam-insight.png);
-          top: 54px;
-          left: 0;
-          background-size: cover;
-          width: 300px;
-          height: 140px;
+        display: none; }
+      .hrus-four .hrus-four-section .responsive-insight-sticker {
+        display: block;
+        background-image: url(../src/img/hrusteam-insight.png);
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 139px;
+        margin: 40px auto;
+        background-size: cover; }
+      .hrus-four .hrus-four-section .responsive-idea-sticker {
+        display: block;
+        background-image: url(../src/img/hrusteam-idea.png);
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 139px;
+        margin: 40px auto;
+        background-size: cover; }
+        .hrus-four .hrus-four-section .responsive-idea-sticker:before {
+          content: "";
+          width: 271px;
+          height: 330px;
           display: block;
-          position: relative;
-          margin: auto; }
-        .hrus-four .hrus-four-section__wrapper_sticker-idea {
-          background-image: url(../src/img/hrusteam-idea.png);
-          display: block;
-          position: relative;
-          margin: auto;
-          left: 0;
-          background-size: cover;
-          width: 300px;
-          height: 140px;
-          top: 190px; }
-        .hrus-four .hrus-four-section__wrapper_girl-glitch {
-          display: none;
           position: absolute;
           background-size: cover;
-          background-position: center;
-          width: 200px;
-          height: 300px;
-          left: -3%;
-          top: 1100px;
+          background-image: url(../src/img/hrusteam-girl-glitch.png);
           background-repeat: no-repeat;
-          background-image: url(../src/img/hrusteam-girl-glitch.png); }
+          background-position: center;
+          margin: -86px 0 0 -309px; }
       .hrus-four .hrus-four-section__text-block-one {
-        text-align: center;
-        font-size: 16px;
+        width: 80%;
         display: block;
-        margin: auto;
-        width: 95%;
-        padding: 220px 0 100px 0;
-        color: #fff; }
+        padding: 0;
+        margin: 50px auto;
+        color: #ffffff; }
       .hrus-four .hrus-four-section__text-block-two {
-        text-align: center;
-        font-size: 16px;
+        width: 80%;
         display: block;
-        margin: auto;
-        width: 95%;
-        padding: 40px 0 100px 0;
-        color: #fff; }
-
-  /* ---------------------------- Fifth Section ------------------------------*/
+        padding: 0;
+        margin: 50px auto;
+        color: #ffffff; }
   .hrus-five {
     width: 100%;
-    display: block;
-    background-image: url(../src/img/hrusteam-five-section-bg.png);
-    background-position: 112% 150px;
-    background-repeat: no-repeat;
-    background-size: 150%;
-    height: 330px; }
+    height: auto; }
     .hrus-five .hrus-five-section {
-      width: 320px;
-      display: block;
-      margin: auto;
-      overflow: auto; }
+      width: 100%; }
+      .hrus-five .hrus-five-section .realization-screens {
+        display: block;
+        width: 90%;
+        height: auto;
+        margin: auto; }
+      .hrus-five .hrus-five-section .responsive-relization-sticker {
+        display: block;
+        background-image: url(../src/img/hrusteam-realization.png);
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 139px;
+        margin: 40px auto;
+        background-size: cover; }
       .hrus-five .hrus-five-section__wrapper {
-        position: absolute;
-        width: 100%;
-        display: block; }
-        .hrus-five .hrus-five-section__wrapper_screen-one {
-          display: none; }
-        .hrus-five .hrus-five-section__wrapper_screen-two {
-          display: none; }
-        .hrus-five .hrus-five-section__wrapper_screen-three {
-          z-index: 5;
-          display: block;
-          margin: auto;
-          width: 91%;
-          height: 190px;
-          background-size: cover;
-          background-image: url(../src/img/hrusteam-five-screens.png); }
-        .hrus-five .hrus-five-section__wrapper_screen-four {
-          display: none; }
-        .hrus-five .hrus-five-section__wrapper_screen-five {
-          display: none; }
-        .hrus-five .hrus-five-section__wrapper_sticker-realization {
-          background-image: url(../src/img/hrusteam-realization.png);
-          display: block;
-          position: relative;
-          margin: auto;
-          left: 0;
-          background-size: cover;
-          width: 300px;
-          height: 140px;
-          top: 0; }
-
-  /* ---------------------------- Sixth Section ------------------------------*/
+        display: none; }
   .hrus-six {
     width: 100%;
-    display: block;
-    background-image: url(../src/img/hrusteam-six-section-bg.png);
-    background-repeat: no-repeat;
-    background-color: #ff0112;
-    height: 1890px;
-    background-position: 71% -400px; }
+    height: auto;
+    background-position: 71% -400px;
+    background-image: url("../src/img/hrusteam-four-section-bg.png"); }
     .hrus-six .hrus-six-section {
-      width: 320px;
+      width: 100%;
       display: block;
       margin: auto;
       overflow: auto; }
       .hrus-six .hrus-six-section__wrapper {
-        position: absolute;
-        width: 100%;
-        display: block; }
-        .hrus-six .hrus-six-section__wrapper_bottom-screen-1 {
-          background-position: center;
+        display: none; }
+      .hrus-six .hrus-six-section .responsive-bottom-screen-one {
+        display: block;
+        width: 70%;
+        height: auto;
+        margin: 50px auto; }
+      .hrus-six .hrus-six-section .responsive-bottom-screen-two {
+        display: block;
+        width: 70%;
+        height: auto;
+        margin: 50px auto; }
+      .hrus-six .hrus-six-section__results-wrapper {
+        width: 90%;
+        margin: auto;
+        height: auto;
+        padding: 0; }
+        .hrus-six .hrus-six-section__results-wrapper .figures-wrapper {
           display: block;
-          position: relative;
-          margin: 40px auto;
-          top: 40px;
-          width: 90%;
-          height: 289px;
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-image: url(../src/img/hrusteam-bottom-screen-1.png); }
-        .hrus-six .hrus-six-section__wrapper_bottom-screen-2 {
-          background-position: center;
-          left: 0;
-          position: relative;
-          display: block;
-          margin: 80px auto;
-          width: 90%;
-          height: 381px;
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-image: url(../src/img/hrusteam-bottom-screen-2.png);
-          top: 0; }
-        .hrus-six .hrus-six-section__wrapper_sticker-results {
-          background-image: url(../src/img/hrusteam-results.png);
-          left: 0;
-          display: block;
-          position: relative;
-          margin: auto;
-          background-size: cover;
-          width: 300px;
-          height: 140px;
-          top: -50px; }
-        .hrus-six .hrus-six-section__wrapper_figures-wrapper {
+          height: auto;
           vertical-align: top;
-          margin: auto;
-          display: block;
-          width: 95%;
-          height: auto; }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .before-one {
-            top: -135px;
-            left: 50px; }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .after-one {
-            top: -201px;
-            left: 71px; }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .before-two {
-            top: -50px;
-            left: 100px; }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .after-two {
-            left: 22px;
-            top: -95px; }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .before-three {
-            left: 130px;
-            top: -216px; }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .after-three {
-            left: 190px;
-            top: -80px; }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .figures-text {
+          padding: 0;
+          width: 300px;
+          margin: 18px auto; }
+          .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .figures-text {
             font-family: "Proxima Nova", sans-serif;
-            font-size: 16px;
+            font-size: 22px;
             font-weight: 200;
             display: block;
             color: #fff;
             text-align: center;
             margin: auto;
-            height: 41px;
-            padding: 0;
-            width: 95%; }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .before-after-text {
+            height: 100px;
+            padding: 20px 0 20px 0; }
+          .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .before-after-text {
             font-family: Arial, sans-serif;
             font-size: 16px;
             font-weight: 200;
@@ -1448,21 +1257,39 @@
             color: #fff;
             position: absolute;
             margin: 0; }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .figures-style {
-            width: 80%;
-            height: 252px;
+          .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .figures-style {
+            width: 300px;
+            height: 250px;
             display: block;
             margin: auto;
             background-repeat: no-repeat;
             background-position: center; }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .before-after-figures {
+          .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .before-after-figures {
             background-image: url("../src/img/hrusteam-before-after-figures.png"); }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .new-users-figures {
+          .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .new-users-figures {
             background-image: url("../src/img/hrusteam-new-users-figures.png"); }
-          .hrus-six .hrus-six-section__wrapper_figures-wrapper .subscribers-figures {
+          .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .subscribers-figures {
             background-image: url("../src/img/hrusteam-subscribers-figures.png"); }
-
-  /* ---------------------------- Footer  ------------------------------*/
+          .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .before-after-wrapper {
+            position: absolute; }
+            .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .before-after-wrapper .before-one {
+              top: -135px;
+              left: 50px; }
+            .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .before-after-wrapper .after-one {
+              top: -200px;
+              left: 80px; }
+            .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .before-after-wrapper .before-two {
+              top: -50px;
+              left: 110px; }
+            .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .before-after-wrapper .after-two {
+              left: 20px;
+              top: -95px; }
+            .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .before-after-wrapper .before-three {
+              left: 150px;
+              top: -216px; }
+            .hrus-six .hrus-six-section__results-wrapper .figures-wrapper .before-after-wrapper .after-three {
+              left: 200px;
+              top: -80px; }
   .hrus-footer {
     width: 100%;
     display: block;
@@ -1470,48 +1297,44 @@
     background-repeat: no-repeat;
     background-position: center; }
     .hrus-footer__wrapper {
-      width: 320px;
+      width: 100%;
       display: block;
       margin: auto; }
       .hrus-footer__wrapper_text {
-        font-family: Arial,sans-serif;
+        font-family: Arial, sans-serif;
         font-size: 20px;
         font-weight: 700;
         color: #ff0112;
         display: block;
         margin: auto;
-        width: 80%;
+        width: 90%;
         text-shadow: 2px 2px 0px #140000;
-        padding: 40px 0 40px 0;
+        padding: 40px 0 60px 0;
         text-align: center; }
       .hrus-footer__wrapper .button-wrapper {
         text-decoration: none; }
       .hrus-footer__wrapper_button {
         padding: 20px 80px;
-        display: block;
-        margin: auto;
         font-size: 14px;
         font-weight: 100;
         font-family: Arial Black, sans-serif;
         color: #fff;
         background-color: #4fd5d6;
         cursor: pointer;
-        text-align: center;
-        text-decoration: none;
         float: none;
-        border: none; }
+        margin: auto;
+        text-decoration: none;
+        border: none;
+        display: block; }
         .hrus-footer__wrapper_button:hover {
           -webkit-box-shadow: 1px 3px 19px 6px rgba(79, 213, 214, 0.28);
           -moz-box-shadow: 1px 3px 19px 6px rgba(79, 213, 214, 0.28);
           box-shadow: 1px 3px 19px 6px rgba(79, 213, 214, 0.28); }
       .hrus-footer__wrapper_copyright {
+        padding: 100px 0 11px 0;
+        font-size: 15px;
+        display: block;
         margin: auto;
         text-align: center;
-        padding: 20px 0 20px 0;
-        font-size: 15px;
         font-family: Proxima Nova, sans-serif;
         color: #3e3e3e; } }
-.before-after-wrapper {
-  position: absolute; }
-
-/*# sourceMappingURL=hrusteam-landing-styles.css.map */
