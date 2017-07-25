@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <title>ХрусTeam</title>
     <link rel="stylesheet" href="scss/hrusteam-landing-styles.css">
     <script>
@@ -27,13 +27,13 @@
         <div class="hrus-header__wrapper_header-cross-wrapper">
             <span class="cross-red-small cross-first js-cross-fast"></span>
             <span class="cross-red-medium cross-second js-cross-slow"></span>
-            <span class="cross-red-medium cross-third js-cross-fast"></span>
             <span class="cross-red-large cross-fourth js-cross-slow"></span>
             <span class="cross-red-large cross-fifth js-cross-fast"></span>
         </div>
         <a href="http://sigmadigital.com.ua" target="_blank"><img class="hrus-header__wrapper_logo" src="src/img/hrus-logo-sigma.png"></a>
         <div class="hrus-header__wrapper_red-frame"></div>
-        <img class="hrus-header__wrapper_girls-glitch" src="src/img/hrusteam-girls-glitch.gif">
+        <span class="hrus-header__wrapper_girls-glitch"></span>
+        <img class="hrus-header__wrapper_girls-glitch-responsive" src="src/img/hrusteam-header-glitch.png">
     </div>
 </header>
 
@@ -51,9 +51,11 @@
             <span class="sticker-style hrus-second-section__wrapper_sticker-client"></span>
             <span class="sticker-style hrus-second-section__wrapper_sticker-task"></span>
         </div>
+        <span class="responsive-client-sticker"></span>
         <h1 class="heading-style hrus-second-section__heading">Pepsico. Хрусteam</h1>
         <p class="text-style hrus-second-section__text-block-one">Снеки, которые отличаются от традиционных сухариков тем что производятся по специальному рецепту теста и с использованием  технологии экструзии.
             <br><br>Благодаря этому они имеют сбалансированный вкус, удобную форму и идеальный хруст. Юмор и позитивное настроение бренда призывают украинцев жить и хрустеть веселее.</p>
+        <span class="responsive-task-sticker"></span>
         <p class="text-style hrus-second-section__text-block-two">Растить знание о бренде, как о модном перекусе.
 
             <br><br>Укрепить позиционирования бренда в качестве закуски
@@ -77,7 +79,9 @@
             <span class="sticker-style hrus-third-section__wrapper_sticker-problems"></span>
             <span class="hrus-third-section__wrapper_phone-with-dog"></span>
         </div>
+        <span class="responsive-situation-sticker"></span>
         <p class="text-style hrus-third-section__text-block-one">В социальных сетях бренд публиковал смешные картинки и приколы, иногда брендовые посты. Вместе с платным промо это работало, но было очень скучно.</p>
+        <span class="responsive-problem-sticker"></span>
         <p class="text-style hrus-third-section__text-block-two">ХрусTeam присутствовал только во Вконтакте, поскольку
             эта платформа была наиболее охватной и релевантной
             для ЦА.
@@ -92,7 +96,9 @@
 
     <!----------------------------------- Fourth Section --------------------------------->
 </section>
-    <section class="hrus-four">
+
+
+<section class="hrus-four">
         <section class="hrus-four-section">
             <div class="hrus-four-section__wrapper">
                 <span class="cross-white-medium hrus-four-section__wrapper_cross-first js-cross-slow"></span>
@@ -102,10 +108,12 @@
                 <span class="sticker-style hrus-four-section__wrapper_sticker-idea"></span>
                 <span class="hrus-four-section__wrapper_girl-glitch"></span>
             </div>
+            <span class="responsive-insight-sticker"></span>
             <p class="text-style hrus-four-section__text-block-one">Наша ЦА — это молодые прогрессивные люди поколения Z.
                 Они скорее отреагируют на что-то необычное,
                 коммуникацию на их языке, чем на что-то стандартное.
                 Они становятся более требовательными.</p>
+            <span class="responsive-idea-sticker"></span>
             <p class="text-style hrus-four-section__text-block-two js-trigger">Мы решили стать законодателем моды. Сообществом, на
                 которое интересно подписаться. Мы не предложили 5
                 рубрик 7 дней в неделю.  Это интересно только SMM- и
@@ -122,6 +130,8 @@
 <!----------------------------------- Fifth Section --------------------------------->
 <section class="hrus-five js-trigger">
     <section class="hrus-five-section">
+        <span class="responsive-relization-sticker"></span>
+        <img class="realization-screens" src="src/img/hrusteam-five-screens.png">
         <div class="hrus-five-section__wrapper">
             <span class="sticker-style hrus-five-section__wrapper_sticker-realization"></span>
             <span class="hrus-five-section__wrapper_screen-one js-screen-one"></span>
@@ -140,7 +150,11 @@
             <span class="hrus-six-section__wrapper_bottom-screen-1"></span>
             <span class="hrus-six-section__wrapper_bottom-screen-2"></span>
             <span class="sticker-style hrus-six-section__wrapper_sticker-results"></span>
-            <div class="hrus-six-section__wrapper_figures-wrapper">
+        </div>
+        <img class="responsive-bottom-screen-one" src="src/img/hrusteam-bottom-screen-1.png">
+        <img class="responsive-bottom-screen-two" src="src/img/hrusteam-bottom-screen-2.png">
+        <div class="hrus-six-section__results-wrapper">
+            <div class="figures-wrapper">
                 <p class="figures-text">Среднее количество взаимодействий на пост</p>
                 <span class="figures-style before-after-figures"></span>
                 <div class="before-after-wrapper">
@@ -148,7 +162,7 @@
                     <p class="before-after-text after-one">после</p>
                 </div>
             </div>
-            <div class="hrus-six-section__wrapper_figures-wrapper">
+            <div class="figures-wrapper">
                 <p class="figures-text">Средний ежемесячный <br>охват</p>
                 <span class="figures-style subscribers-figures"></span>
                 <div class="before-after-wrapper">
@@ -156,7 +170,7 @@
                     <p class="before-after-text after-two">после</p>
                 </div>
             </div>
-            <div class="hrus-six-section__wrapper_figures-wrapper">
+            <div class="figures-wrapper">
                 <p class="figures-text">Прирост фанов (при равном бюджете на рекламную компанию)</p>
                 <span class="figures-style new-users-figures"></span>
                 <div class="before-after-wrapper">
