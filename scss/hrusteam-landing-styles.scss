@@ -1,0 +1,1841 @@
+
+/* ----------------------------------------- Desctop Version ------------------------------------------*/
+
+/* ---------------------------- general styles ------------------------------*/
+
+
+
+  body {
+    margin: 0;
+  }
+
+  .pattern-style {
+    width: 410px;
+    height: 500px;
+    position: absolute;
+    display: block;
+    background-repeat: no-repeat;
+  }
+
+  .text-style {
+    font-size: 22px;
+    font-weight: 200;
+    font-family: Proxima Nova, sans-serif;
+  }
+
+  .sticker-style {
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 172px;
+    display: block;
+    position: absolute;
+  }
+
+  .cross-red-small {
+    position: absolute;
+    width: 25px;
+    height: 6px;
+    display: block;
+    background-color: #ff0112;
+
+    &:after {
+      content: "";
+      width: 25px;
+      height: 6px;
+      display: block;
+      position: absolute;
+      transform: rotate(90deg);
+      background-color: #ff0112;
+    }
+  }
+
+  .cross-red-medium {
+    position: absolute;
+    width: 35px;
+    height: 8px;
+    display: block;
+    background-color: #ff0112;
+
+    &:after {
+      content: "";
+      width: 35px;
+      height: 8px;
+      display: block;
+      position: absolute;
+      transform: rotate(90deg);
+      background-color: #ff0112;
+    }
+  }
+
+  .cross-red-large {
+    position: absolute;
+    width: 50px;
+    height: 11px;
+    display: block;
+    background-color: #ff0112;
+
+    &:after {
+      content: "";
+      width: 50px;
+      height: 11px;
+      display: block;
+      position: absolute;
+      transform: rotate(90deg);
+      background-color: #ff0112;
+    }
+  }
+
+  .cross-white-small {
+    position: absolute;
+    width: 25px;
+    height: 6px;
+    display: block;
+    background-color: #fff;
+
+    &:after {
+      content: "";
+      width: 25px;
+      height: 6px;
+      display: block;
+      position: absolute;
+      transform: rotate(90deg);
+      background-color: #fff;
+    }
+  }
+
+  .cross-white-medium {
+    position: absolute;
+    width: 35px;
+    height: 8px;
+    display: block;
+    background-color: #fff;
+
+    &:after {
+      content: "";
+      width: 35px;
+      height: 8px;
+      display: block;
+      position: absolute;
+      transform: rotate(90deg);
+      background-color: #fff;
+    }
+  }
+
+  .cross-white-large {
+    position: absolute;
+    width: 50px;
+    height: 11px;
+    display: block;
+    background-color: #fff;
+
+    &:after {
+      content: "";
+      width: 50px;
+      height: 11px;
+      display: block;
+      position: absolute;
+      transform: rotate(90deg);
+      background-color: #fff;
+    }
+  }
+
+  /* ---------------------------- Header ------------------------------*/
+
+  .hrus-header {
+    width: 100%;
+    display: block;
+
+    &__red-line {
+      width: 98%;
+      height: 10px;
+      background-color: #ff0112;
+      display: block;
+    }
+
+    &__wrapper {
+      width: 1000px;
+      display: block;
+      margin: 20px auto;
+      background-image: url(../src/img/hrusteam-confetti.png);
+      background-position: center;
+      overflow: hidden;
+      padding: 0 0 100px 0;    width: 1000px;
+      background-size: cover;
+
+
+      &_logo {
+        display: block;
+        margin: 30px auto;
+        width: 121px;
+        height: 50px;
+      }
+
+      &_girls-glitch {
+        width: 800px;
+        height: 400px;
+        display: block;
+        margin: 107px auto;
+        -webkit-box-shadow: 0px 1px 24px 0px #d8d8d8;
+        -moz-box-shadow: 0px 1px 24px 0px #d6d6d6;
+        box-shadow: 0px 1px 24px 0px #d6d6d6;
+        background-image: url("../src/img/hrusteam-girls-glitch.gif");
+        background-position: center;
+        -o-background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      &_girls-glitch-responsive{
+        display: none;
+      }
+
+      &_red-frame {
+        display: block;
+        width: 800px;
+        height: 380px;
+        position: absolute;
+        border-color: #ff0112;
+        border-style: solid;
+        border-width: 8px;
+        margin: 50px 0 0 28px;
+
+        &:after {
+          content: "";
+          background-image: url(../src/img/hrusteam-logo.png);
+          background-repeat: no-repeat;
+          width: 293px;
+          height: 172px;
+          display: block;
+          position: absolute;
+          top: -79px;
+          left: -13px;
+        }
+      }
+
+      &_header-cross-wrapper {
+        width: 1000px;
+        position: absolute;
+
+        .cross-first {
+          transform: rotate(32deg);
+          top: 40px;
+          left: -100px;
+        }
+
+        .cross-second {
+          transform: rotate(36deg);
+          left: 754px;
+          top: 50px;
+        }
+
+        .cross-fourth {
+          transform: rotate(32deg);
+          top: 400px;
+          left: -100px;
+        }
+
+        .cross-fifth {
+          transform: rotate(32deg);
+          top: 415px;
+          left: 712px;
+        }
+      }
+    }
+  }
+
+  /* ---------------------------- Second Section ------------------------------*/
+
+  .hrus-second {
+    width: 100%;
+    display: block;
+    background-color: #ff0112;
+    background-image: url("../src/img/hrusteam-second-section-bg.png");
+    background-position: 56% -348px;
+    background-repeat: no-repeat;
+
+    .hrus-second-section {
+      width: 1000px;
+      display: block;
+      margin: auto;
+      overflow: auto;
+
+      &__wrapper {
+        position: absolute;
+        width: 1000px;
+        display: block;
+
+        &_cross-first {
+          top: 502px;
+          left: 1000px;
+          transform: rotate(68deg);
+        }
+
+        &_cross-second {
+          top: 100%;
+          left: 700px;
+          transform: rotate(50deg);
+        }
+
+        &_cross-third {
+          top: 1069px;
+          left: 1100px;
+          transform: rotate(50deg);
+        }
+
+        &_cross-fourth {
+          top: 100px;
+          left: 738px;
+          transform: rotate(55deg);
+        }
+
+        &_cross-fifth {
+          top: 479px;
+          left: -100px;
+          transform: rotate(68deg);
+        }
+
+        &_hand {
+          background-repeat: no-repeat;
+          background-image: url(../src/img/hrusteam-hand.png);
+          background-position: -8px -187px;
+          display: block;
+          position: absolute;
+          width: 600px;
+          height: 600px;
+          left: -300px;
+        }
+
+        &_circle {
+          display: block;
+          position: absolute;
+          width: 700px;
+          height: 300px;
+          border-top-left-radius: 700px;
+          border-top-right-radius: 700px;
+          border: 40px solid #fff;
+          top: 900px;
+          left: 600px;
+        }
+
+        &_jumping-man {
+          display: block;
+          position: absolute;
+          top: 550px;
+          left: 700px;
+          width: 300px;
+          height: 900px;
+          background-repeat: no-repeat;
+          background-image: url(../src/img/hrusteam-man-jumping.png);
+        }
+
+        &_sticker-client {
+          background-image: url(../src/img/hrusteam-client.png);
+          top: 30px;
+          left: 696px;
+        }
+
+        &_sticker-task {
+          background-image: url(../src/img/hrusteam-task.png);
+          top: 550px;
+          left: 300px;
+        }
+
+        &_pattern-left {
+          background-image: url(../src/img/hrusteam-puttern-white.png);
+          transform: rotate(250deg);
+          top: 700px;
+          left: -550px;
+          background-size: 113%;
+          background-position-y: -60px;
+        }
+
+        &_pattern-right {
+          background-image: url(../src/img/hrusteam-puttern-white.png);
+          transform: rotate(233deg);
+          top: -152px;
+          left: 1114px;
+          background-size: 127%;
+        }
+      }
+
+      .responsive-task-sticker{
+        display: none;
+      }
+
+      .responsive-client-sticker{
+        display: none;
+      }
+
+
+      &__heading {
+        font-family: Arial, sans-serif;
+        margin: 200px 0 0 400px;
+        display: inline-block;
+        font-size: 22px;
+        font-weight: 200;
+        border-left: 10px solid;
+        padding-left: 20px;
+        color: #fff;
+      }
+
+      &__text-block-one {
+        display: inline-block;
+        width: 600px;
+        margin: 0 0 0 400px;
+        padding: 40px 0 0 0;
+        color: #fff;
+
+      }
+
+      &__text-block-two {
+        width: 550px;
+        display: inline-block;
+        padding: 250px 0 40px 0;
+        color: #fff;
+      }
+    }
+  }
+
+  /* ---------------------------- Third Section ------------------------------*/
+
+  .hrus-third {
+    width: 100%;
+    display: block;
+    background-image: url(../src/img/hrusteam-third-section-bg.png);
+    background-position: 56% 245px;
+    background-repeat: no-repeat;
+
+    .hrus-third-section {
+      width: 1000px;
+      display: block;
+      margin: auto;
+      overflow: auto;
+
+      &__wrapper {
+        position: absolute;
+        width: 1000px;
+        display: block;
+
+        &_cross-first {
+          top: 257px;
+          left: -100px;
+          transform: rotate(68deg);
+        }
+
+        &_cross-second {
+          top: 357px;
+          left: 600px;
+          transform: rotate(68deg);
+        }
+
+        &_sticker-situation {
+          background-image: url(../src/img/hrusteam-situation.png);
+          top: 54px;
+          left: -24px;
+        }
+
+        &_sticker-problems {
+          background-image: url(../src/img/hrusteam-problems.png);
+          top: 419px;
+          left: 696px;
+        }
+
+        &_phone-with-dog {
+          display: block;
+          position: absolute;
+          top: 415px;
+          left: -161px;
+          width: 602px;
+          height: 500px;
+          background-repeat: no-repeat;
+          background-image: url(../src/img/hrusteam-iphone-dog.png);
+        }
+      }
+
+      .responsive-situation-sticker{
+        display: none;
+      }
+
+      .responsive-problem-sticker{
+        display: none;
+      }
+
+
+      &__text-block-one {
+        width: 550px;
+        display: inline-block;
+        padding: 250px 0 200px 0;
+        color: #ff0112;
+      }
+
+      &__text-block-two {
+        display: inline-block;
+        width: 600px;
+        margin: 0 0 0 400px;
+        padding: 40px 0 100px 0;
+        color: #ff0112;
+      }
+    }
+  }
+
+  /* ---------------------------- Four Section ------------------------------*/
+
+  .hrus-four {
+    width: 100%;
+    display: block;
+    background-color: #ff0112;
+    background-image: url(../src/img/hrusteam-four-section-bg.png);
+    background-position: 57% 86px;
+    background-repeat: no-repeat;
+
+    .hrus-four-section {
+      width: 1000px;
+      display: block;
+      margin: auto;
+      overflow: auto;
+
+      &__wrapper {
+        position: absolute;
+        width: 1000px;
+        display: block;
+
+        &_cross-first {
+          top: 93px;
+          left: 500px;
+          transform: rotate(31deg);
+        }
+
+        &_cross-second {
+          left: 807px;
+          transform: rotate(68deg);
+        }
+
+        &_cross-third {
+          top: 183px;
+          left: 1090px;
+          transform: rotate(114deg);
+        }
+
+        &_sticker-insight {
+          background-image: url(../src/img/hrusteam-insight.png);
+          top: 54px;
+          left: -24px;
+        }
+
+        &_sticker-idea {
+          background-image: url(../src/img/hrusteam-idea.png);
+          top: 419px;
+          left: 696px;
+        }
+
+        &_girl-glitch {
+          display: block;
+          position: absolute;
+          top: 489px;
+          left: -86px;
+          width: 685px;
+          height: 800px;
+          background-repeat: no-repeat;
+          background-image: url(../src/img/hrusteam-girl-glitch.png);
+        }
+      }
+
+      .responsive-insight-sticker{
+        display: none;
+      }
+
+      .responsive-idea-sticker{
+        display: none;
+      }
+
+      &__text-block-one {
+        width: 550px;
+        display: inline-block;
+        padding: 250px 0 200px 0;
+        color: #fff;
+      }
+
+      &__text-block-two {
+        display: inline-block;
+        width: 600px;
+        margin: 0 0 0 400px;
+        padding: 40px 0 100px 0;
+        color: #fff;
+      }
+    }
+  }
+
+  /* ---------------------------- Fifth Section ------------------------------*/
+
+  .hrus-five {
+    width: 100%;
+    display: block;
+    background-image: url(../src/img/hrusteam-five-section-bg.png);
+    background-position: 112% 150px;
+    background-repeat: no-repeat;
+    height: 910px;
+    background-size: 150%;
+
+    .hrus-five-section {
+      width: 1000px;
+      display: block;
+      margin: auto;
+      overflow: auto;
+
+      .realization-screens{
+        display: none;
+      }
+
+      .responsive-relization-sticker{
+        display: none;
+      }
+
+      &__wrapper {
+        position: absolute;
+        width: 1000px;
+        display: block;
+
+        &_screen-one {
+          display: block;
+          position: absolute;
+          top: 338px;
+          left: 205px;
+          width: 270px;
+          height: 418px;
+          background-repeat: no-repeat;
+          background-image: url(../src/img/hrusteam-screen-moove-1.png);
+          z-index: -1;
+        }
+
+        &_screen-two {
+          display: block;
+          z-index: -2;
+          position: absolute;
+          top: 271px;
+          left: 280px;
+          width: 270px;
+          height: 418px;
+          background-repeat: no-repeat;
+          background-image: url(../src/img/hrusteam-screen-moove-2.png);
+        }
+
+        &_screen-three {
+          z-index: 5;
+          display: block;
+          margin: 250px 225px;
+          width: 432px;
+          height: 647px;
+          background-repeat: no-repeat;
+          background-image: url(../src/img/hrusteam-screen-moove-3.png);
+        }
+
+        &_screen-four {
+          z-index: -2;
+          display: block;
+          position: absolute;
+          top: 273px;
+          left: 480px;
+          width: 270px;
+          height: 418px;
+          background-repeat: no-repeat;
+          background-image: url(../src/img/hrusteam-screen-moove-4.png);
+
+        }
+
+        &_screen-five {
+          display: block;
+          position: absolute;
+          top: 340px;
+          left: 592px;
+          width: 270px;
+          height: 418px;
+          background-repeat: no-repeat;
+          background-image: url(../src/img/hrusteam-screen-moove-5.png);
+          z-index: -1;
+        }
+
+        &_sticker-realization {
+          background-image: url(../src/img/hrusteam-realization.png);
+          top: 100px;
+          left: 696px;
+        }
+      }
+    }
+  }
+
+  /* ---------------------------- Sixth Section ------------------------------*/
+
+  .hrus-six {
+    width: 100%;
+    display: block;
+    background-image: url(../src/img/hrusteam-six-section-bg.png);
+    background-repeat: no-repeat;
+    background-color: #ff0112;
+    height: 1050px;
+    background-position: 71% -400px;
+
+    .hrus-six-section {
+      width: 1000px;
+      display: block;
+      margin: auto;
+      overflow: auto;
+
+      .responsive-bottom-screen-one{
+        display: none;
+      }
+
+      .responsive-bottom-screen-two{
+        display: none;
+      }
+
+      &__results-wrapper{
+        width: 1000px;
+        display: block;
+        margin: auto;
+        overflow: hidden;
+        height: 400px;
+        padding: 600px 0 0 0;
+
+        .figures-wrapper {
+          display: inline-block;
+          width: 320px;
+          height: 250px;
+          vertical-align: top;
+          margin: 0;
+
+
+          .figures-text {
+            font-family: "Proxima Nova", sans-serif;
+            font-size: 22px;
+            font-weight: 200;
+            display: block;
+            color: #fff;
+            text-align: center;
+            margin: auto;
+            height: 100px;
+            padding: 20px 0 20px 0;
+          }
+
+          .figures-style {
+            width: 300px;
+            height: 250px;
+            display: block;
+            margin: auto;
+            background-repeat: no-repeat;
+            background-position: center;
+          }
+
+          .before-after-figures {
+            background-image: url("../src/img/hrusteam-before-after-figures.png");
+          }
+
+          .new-users-figures {
+            background-image: url("../src/img/hrusteam-new-users-figures.png");
+          }
+
+          .subscribers-figures {
+            background-image: url("../src/img/hrusteam-subscribers-figures.png");
+          }
+
+          .before-after-wrapper{
+            position: absolute;
+
+            .before-after-text {
+              font-family: Arial, sans-serif;
+              font-size: 16px;
+              font-weight: 200;
+              display: block;
+              color: #fff;
+              position: absolute;
+              margin: 0;
+            }
+
+            .before-one{
+              top: -135px;
+              left: 50px;
+            }
+
+            .after-one{
+              top: -200px;
+              left: 80px;
+            }
+
+            .before-two{
+              top: -50px;
+              left: 110px;
+            }
+
+            .after-two{
+              left: 20px;
+              top: -95px;
+            }
+
+            .before-three{
+              left: 150px;
+              top: -216px;
+            }
+
+            .after-three{
+              left: 200px;
+              top: -80px;
+            }
+
+          }
+
+
+        }
+      }
+
+      &__wrapper {
+        position: absolute;
+        width: 1000px;
+        display: block;
+
+        &_bottom-screen-1 {
+          display: block;
+          position: absolute;
+          top: -145px;
+          left: 0;
+          width: 526px;
+          height: 507px;
+          background-repeat: no-repeat;
+          background-image: url(../src/img/hrusteam-bottom-screen-1.png);
+        }
+
+        &_bottom-screen-2 {
+          display: block;
+          position: absolute;
+          top: -93px;
+          left: 550px;
+          width: 427px;
+          height: 601px;
+          background-repeat: no-repeat;
+          background-image: url(../src/img/hrusteam-bottom-screen-2.png);
+        }
+
+        &_sticker-results {
+          background-image: url(../src/img/hrusteam-results.png);
+          top: 386px;
+          left: -24px;
+        }
+      }
+    }
+  }
+
+  /* ---------------------------- Footer  ------------------------------*/
+
+  .hrus-footer {
+    width: 100%;
+    display: block;
+    background-image: url(../src/img/hrusteam-footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &__wrapper {
+      width: 1000px;
+      display: block;
+      margin: auto;
+
+      &_text {
+        font-family: Arial, sans-serif;
+        font-size: 35px;
+        font-weight: 700;
+        color: #ff0112;
+        display: block;
+        margin: auto;
+        width: 699px;
+        text-shadow: 2px 2px 0px rgba(20, 0, 0, 1);
+        padding: 100px 0 60px 0;
+      }
+
+      &_button {
+        padding: 20px 80px;
+        font-size: 14px;
+        font-weight: 100;
+        font-family: Arial Black, sans-serif;
+        color: #fff;
+        background-color: #4fd5d6;
+        cursor: pointer;
+        float: right;
+        margin: 0 300px 100px 0;
+        text-decoration: none;
+        border: none;
+        &:hover {
+          -webkit-box-shadow: 1px 3px 19px 6px rgba(79, 213, 214, 0.28);
+          -moz-box-shadow: 1px 3px 19px 6px rgba(79, 213, 214, 0.28);
+          box-shadow: 1px 3px 19px 6px rgba(79, 213, 214, 0.28);
+        }
+      }
+
+      &_copyright {
+        vertical-align: bottom;
+        padding: 100px 0 11px 0;
+        font-size: 15px;
+        margin: 0;
+        font-family: Proxima Nova, sans-serif;
+        color: #3e3e3e;
+      }
+    }
+  }
+
+  .js-move-screen-one {
+    left: 5px !important;
+    transition: 2s;
+  }
+
+  .js-move-screen-two {
+    left: 180px !important;
+    transition: 1s;
+  }
+
+  .js-move-screen-four {
+    left: 580px !important;
+    transition: 1s;
+  }
+
+  .js-move-screen-five {
+    left: 792px !important;
+    transition: 2s;
+  }
+
+  /********************************************************   Mobile Version ************************************/
+
+@media screen and (max-width: 1200px) and (min-width: 500px) {
+
+  .hrus-header {
+    width: 100%;
+
+    &__red-line {
+      width: 100%;
+    }
+
+    &__wrapper {
+      width: 100%;
+
+      &_logo {
+      }
+
+      &_girls-glitch {
+        display: none;
+      }
+
+      &_girls-glitch-responsive {
+        display: block;
+        width: 90%;
+        height: auto;
+        margin: auto;
+      }
+
+      &_red-frame {
+        display: none;
+
+        &:after {
+          display: none;
+        }
+      }
+
+      &_header-cross-wrapper {
+        display: none;
+      }
+    }
+  }
+
+  .hrus-second {
+    width: 100%;
+    display: block;
+    background-color: #ff0112;
+    background-image: none;
+
+    .hrus-second-section {
+      width: 100%;
+      display: block;
+      margin: auto;
+      overflow: auto;
+      &:before{
+        content: "";
+        width: 200px;
+        height: 258px;
+        display: block;
+        position: absolute;
+        background-size: cover;
+        background-image: url(../src/img/hrusteam-hand.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 27px 0 0 -83px;
+      }
+
+      &__wrapper {
+        display: none;
+      }
+
+      .responsive-client-sticker {
+        display: block;
+        background-image: url(../src/img/hrusteam-client.png);
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 139px;
+        margin: 40px auto;
+        background-size: cover;
+      }
+
+      .responsive-task-sticker {
+        display: block;
+        background-image: url(../src/img/hrusteam-task.png);
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 139px;
+        margin: 40px auto;
+        background-size: cover;
+        &:before{
+          content: "";
+          width: 107px;
+          height: 313px;
+          display: block;
+          position: absolute;
+          background-size: cover;
+          background-image: url(../src/img/hrusteam-man-jumping.png);
+          background-repeat: no-repeat;
+          background-position: center;
+          margin: -67px 0 0 -194px;
+          transform: rotate(45deg);
+        }
+      }
+
+      &__heading {
+        font-family: Arial, sans-serif;
+        margin: 0 auto;
+        display: block;
+        font-size: 22px;
+        font-weight: 200;
+        border-left: none;
+        color: #fff;
+        width: 30%;
+        text-align: center;
+        padding: 20px 0 0 0;
+      }
+
+      &__text-block-one {
+        display: block;
+        width: 80%;
+        margin: auto;
+        padding: 40px 0 0 0;
+        color: #fff;
+
+      }
+
+      &__text-block-two {
+        width: 80%;
+        display: block;
+        padding: 50px 0 40px 0;
+        margin: auto;
+        color: #fff;
+      }
+    }
+  }
+
+  .hrus-third {
+    width: 100%;
+    display: block;
+    background-image: none;
+
+    .hrus-third-section {
+      width: 100%;
+      display: block;
+      margin: auto;
+      overflow: auto;
+
+      &__wrapper {
+        display: none;
+      }
+
+      .responsive-situation-sticker {
+        display: block;
+        background-image: url(../src/img/hrusteam-situation.png);
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 139px;
+        margin: 40px auto;
+        background-size: cover;
+        &:before{
+          content: "";
+          width: 335px;
+          height: 279px;
+          display: block;
+          position: absolute;
+          background-size: cover;
+          background-image: url(../src/img/hrusteam-iphone-dog.png);
+          background-repeat: no-repeat;
+          background-position: center;
+          margin: -62px 0 0 -338px;
+        }
+      }
+
+      .responsive-problem-sticker {
+        display: block;
+        background-image: url(../src/img/hrusteam-problems.png);
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 139px;
+        margin: 40px auto;
+        background-size: cover;
+      }
+
+      &__text-block-one {
+        width: 80%;
+        display: block;
+        padding: 0;
+        margin: 50px auto;
+        color: #ff0112;
+      }
+
+      &__text-block-two {
+        width: 80%;
+        display: block;
+        padding: 0;
+        margin: 50px auto;
+        color: #ff0112;
+      }
+    }
+  }
+
+  .hrus-four {
+    width: 100%;
+    display: block;
+    background-color: #ff0112;
+    background-image: none;
+
+    .hrus-four-section {
+      width: 100%;
+      display: block;
+      margin: auto;
+      overflow: auto;
+
+      &__wrapper {
+       display: none;
+      }
+
+      .responsive-insight-sticker{
+        display: block;
+        background-image: url(../src/img/hrusteam-insight.png);
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 139px;
+        margin: 40px auto;
+        background-size: cover;
+      }
+
+      .responsive-idea-sticker{
+        display: block;
+        background-image: url(../src/img/hrusteam-idea.png);
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 139px;
+        margin: 40px auto;
+        background-size: cover;
+        &:before{
+          content: "";
+          width: 271px;
+          height: 330px;
+          display: block;
+          position: absolute;
+          background-size: cover;
+          background-image: url(../src/img/hrusteam-girl-glitch.png);
+          background-repeat: no-repeat;
+          background-position: center;
+          margin: -86px 0 0 -309px;
+        }
+      }
+
+      &__text-block-one {
+        width: 80%;
+        display: block;
+        padding: 0;
+        margin: 50px auto;
+        color: #ffffff;
+      }
+
+      &__text-block-two {
+        width: 80%;
+        display: block;
+        padding: 0;
+        margin: 50px auto;
+        color: #ffffff;
+      }
+    }
+
+  }
+
+  .hrus-five {
+    width: 100%;
+    height: auto;
+
+    .hrus-five-section {
+      width: 100%;
+
+      .realization-screens{
+        display: block;
+        width: 90%;
+        height: auto;
+        margin: auto;
+      }
+
+      .responsive-relization-sticker{
+        display: block;
+        background-image: url(../src/img/hrusteam-realization.png);
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 139px;
+        margin: 40px auto;
+        background-size: cover;
+      }
+
+      &__wrapper {
+        display: none;
+      }
+    }
+  }
+
+  .hrus-six {
+    width: 100%;
+    height: auto;
+    background-position: 71% -400px;
+    background-image: url("../src/img/hrusteam-four-section-bg.png");
+
+    .hrus-six-section {
+      width: 100%;
+      display: block;
+      margin: auto;
+      overflow: auto;
+
+      &__wrapper {
+        display: none;
+      }
+
+      .responsive-bottom-screen-one{
+        display: block;
+        width: 70%;
+        height: auto;
+        margin: 50px auto;
+      }
+
+      .responsive-bottom-screen-two{
+        display: block;
+        width: 70%;
+        height: auto;
+        margin: 50px auto;
+      }
+
+      &__results-wrapper {
+        width: 90%;
+        margin: auto;
+        height: auto;
+        padding: 0;
+
+
+        .figures-wrapper {
+          display: block;
+          height: auto;
+          vertical-align: top;
+          padding: 0;
+          width: 300px;
+          margin: 18px auto;
+
+          .figures-text {
+            font-family: "Proxima Nova", sans-serif;
+            font-size: 22px;
+            font-weight: 200;
+            display: block;
+            color: #fff;
+            text-align: center;
+            margin: auto;
+            height: 100px;
+            padding: 20px 0 20px 0;
+          }
+
+          .before-after-text {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            font-weight: 200;
+            display: block;
+            color: #fff;
+            position: absolute;
+            margin: 0;
+          }
+
+          .figures-style {
+            width: 300px;
+            height: 250px;
+            display: block;
+            margin: auto;
+            background-repeat: no-repeat;
+            background-position: center;
+          }
+
+          .before-after-figures {
+            background-image: url("../src/img/hrusteam-before-after-figures.png");
+          }
+
+          .new-users-figures {
+            background-image: url("../src/img/hrusteam-new-users-figures.png");
+          }
+
+          .subscribers-figures {
+            background-image: url("../src/img/hrusteam-subscribers-figures.png");
+          }
+
+          .before-after-wrapper{
+            position: absolute;
+
+            .before-one {
+              top: -135px;
+              left: 50px;
+            }
+
+            .after-one {
+              top: -200px;
+              left: 80px;
+            }
+
+            .before-two {
+              top: -50px;
+              left: 110px;
+            }
+
+            .after-two {
+              left: 20px;
+              top: -95px;
+            }
+
+            .before-three {
+              left: 150px;
+              top: -216px;
+            }
+
+            .after-three {
+              left: 200px;
+              top: -80px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .hrus-footer {
+    width: 100%;
+    display: block;
+    background-image: url(../src/img/hrusteam-footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &__wrapper {
+      width: 100%;
+      display: block;
+      margin: auto;
+
+      &_text {
+        font-family: Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        color: #ff0112;
+        display: block;
+        margin: auto;
+        width: 90%;
+        text-shadow: 2px 2px 0px #140000;
+        padding: 40px 0 60px 0;
+        text-align: center;
+      }
+
+      .button-wrapper{
+        text-decoration: none;
+      }
+
+      &_button {
+        padding: 20px 80px;
+        font-size: 14px;
+        font-weight: 100;
+        font-family: Arial Black, sans-serif;
+        color: #fff;
+        background-color: #4fd5d6;
+        cursor: pointer;
+        float: none;
+        margin: auto;
+        text-decoration: none;
+        border: none;
+        display: block;
+        &:hover {
+          -webkit-box-shadow: 1px 3px 19px 6px rgba(79, 213, 214, 0.28);
+          -moz-box-shadow: 1px 3px 19px 6px rgba(79, 213, 214, 0.28);
+          box-shadow: 1px 3px 19px 6px rgba(79, 213, 214, 0.28);
+        }
+      }
+
+      &_copyright {
+        padding: 100px 0 11px 0;
+        font-size: 15px;
+        display: block;
+        margin: auto;
+        text-align: center;
+        font-family: Proxima Nova, sans-serif;
+        color: #3e3e3e;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 499px) and (min-width: 320px) {
+
+  .hrus-header {
+    width: 100%;
+
+    &__red-line {
+      width: 100%;
+    }
+
+    &__wrapper {
+      width: 100%;
+
+      &_logo {
+      }
+
+      &_girls-glitch {
+        display: none;
+      }
+
+      &_girls-glitch-responsive {
+        display: block;
+        width: 90%;
+        height: auto;
+        margin: auto;
+      }
+
+      &_red-frame {
+        display: none;
+
+        &:after {
+          display: none;
+        }
+      }
+
+      &_header-cross-wrapper {
+        display: none;
+      }
+    }
+  }
+
+  .hrus-second {
+    width: 100%;
+    display: block;
+    background-color: #ff0112;
+    background-image: none;
+
+    .hrus-second-section {
+      width: 100%;
+      display: block;
+      margin: auto;
+      overflow: auto;
+      &:before{
+        content: "";
+        width: 200px;
+        height: 258px;
+        display: block;
+        position: absolute;
+        background-size: cover;
+        background-image: url(../src/img/hrusteam-hand.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 27px 0 0 -83px;
+      }
+
+      &__wrapper {
+        display: none;
+      }
+
+      .responsive-client-sticker {
+        display: block;
+        background-image: url(../src/img/hrusteam-client.png);
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 139px;
+        margin: 40px auto;
+        background-size: cover;
+      }
+
+      .responsive-task-sticker {
+        display: block;
+        background-image: url(../src/img/hrusteam-task.png);
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 139px;
+        margin: 40px auto;
+        background-size: cover;
+      }
+
+      &__heading {
+        font-family: Arial, sans-serif;
+        margin: 0 auto;
+        display: block;
+        font-size: 22px;
+        font-weight: 200;
+        border-left: none;
+        color: #fff;
+        width: 30%;
+        text-align: center;
+        padding: 20px 0 0 0;
+      }
+
+      &__text-block-one {
+        display: block;
+        width: 80%;
+        margin: auto;
+        padding: 40px 0 0 0;
+        color: #fff;
+
+      }
+
+      &__text-block-two {
+        width: 80%;
+        display: block;
+        padding: 50px 0 40px 0;
+        margin: auto;
+        color: #fff;
+      }
+    }
+  }
+
+  .hrus-third {
+    width: 100%;
+    display: block;
+    background-image: none;
+
+    .hrus-third-section {
+      width: 100%;
+      display: block;
+      margin: auto;
+      overflow: auto;
+
+      &__wrapper {
+        display: none;
+      }
+
+      .responsive-situation-sticker {
+        display: block;
+        background-image: url(../src/img/hrusteam-situation.png);
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 139px;
+        margin: 40px auto;
+        background-size: cover;
+      }
+
+      .responsive-problem-sticker {
+        display: block;
+        background-image: url(../src/img/hrusteam-problems.png);
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 139px;
+        margin: 40px auto;
+        background-size: cover;
+      }
+
+      &__text-block-one {
+        width: 80%;
+        display: block;
+        padding: 0;
+        margin: 50px auto;
+        color: #ff0112;
+      }
+
+      &__text-block-two {
+        width: 80%;
+        display: block;
+        padding: 0;
+        margin: 50px auto;
+        color: #ff0112;
+      }
+    }
+  }
+
+  .hrus-four {
+    width: 100%;
+    display: block;
+    background-color: #ff0112;
+    background-image: none;
+
+    .hrus-four-section {
+      width: 100%;
+      display: block;
+      margin: auto;
+      overflow: auto;
+
+      &__wrapper {
+        display: none;
+      }
+
+      .responsive-insight-sticker{
+        display: block;
+        background-image: url(../src/img/hrusteam-insight.png);
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 139px;
+        margin: 40px auto;
+        background-size: cover;
+      }
+
+      .responsive-idea-sticker{
+        display: block;
+        background-image: url(../src/img/hrusteam-idea.png);
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 139px;
+        margin: 40px auto;
+        background-size: cover;
+        &:before{
+          content: "";
+          width: 271px;
+          height: 330px;
+          display: block;
+          position: absolute;
+          background-size: cover;
+          background-image: url(../src/img/hrusteam-girl-glitch.png);
+          background-repeat: no-repeat;
+          background-position: center;
+          margin: -86px 0 0 -309px;
+        }
+      }
+
+      &__text-block-one {
+        width: 80%;
+        display: block;
+        padding: 0;
+        margin: 50px auto;
+        color: #ffffff;
+      }
+
+      &__text-block-two {
+        width: 80%;
+        display: block;
+        padding: 0;
+        margin: 50px auto;
+        color: #ffffff;
+      }
+    }
+
+  }
+
+  .hrus-five {
+    width: 100%;
+    height: auto;
+
+    .hrus-five-section {
+      width: 100%;
+
+      .realization-screens{
+        display: block;
+        width: 90%;
+        height: auto;
+        margin: auto;
+      }
+
+      .responsive-relization-sticker{
+        display: block;
+        background-image: url(../src/img/hrusteam-realization.png);
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 139px;
+        margin: 40px auto;
+        background-size: cover;
+      }
+
+      &__wrapper {
+        display: none;
+      }
+    }
+  }
+
+  .hrus-six {
+    width: 100%;
+    height: auto;
+    background-position: 71% -400px;
+    background-image: url("../src/img/hrusteam-four-section-bg.png");
+
+    .hrus-six-section {
+      width: 100%;
+      display: block;
+      margin: auto;
+      overflow: auto;
+
+      &__wrapper {
+        display: none;
+      }
+
+      .responsive-bottom-screen-one{
+        display: block;
+        width: 70%;
+        height: auto;
+        margin: 50px auto;
+      }
+
+      .responsive-bottom-screen-two{
+        display: block;
+        width: 70%;
+        height: auto;
+        margin: 50px auto;
+      }
+
+      &__results-wrapper {
+        width: 90%;
+        margin: auto;
+        height: auto;
+        padding: 0;
+
+
+        .figures-wrapper {
+          display: block;
+          height: auto;
+          vertical-align: top;
+          padding: 0;
+          width: 300px;
+          margin: 18px auto;
+
+          .figures-text {
+            font-family: "Proxima Nova", sans-serif;
+            font-size: 22px;
+            font-weight: 200;
+            display: block;
+            color: #fff;
+            text-align: center;
+            margin: auto;
+            height: 100px;
+            padding: 20px 0 20px 0;
+          }
+
+          .before-after-text {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            font-weight: 200;
+            display: block;
+            color: #fff;
+            position: absolute;
+            margin: 0;
+          }
+
+          .figures-style {
+            width: 300px;
+            height: 250px;
+            display: block;
+            margin: auto;
+            background-repeat: no-repeat;
+            background-position: center;
+          }
+
+          .before-after-figures {
+            background-image: url("../src/img/hrusteam-before-after-figures.png");
+          }
+
+          .new-users-figures {
+            background-image: url("../src/img/hrusteam-new-users-figures.png");
+          }
+
+          .subscribers-figures {
+            background-image: url("../src/img/hrusteam-subscribers-figures.png");
+          }
+
+          .before-after-wrapper{
+            position: absolute;
+
+            .before-one {
+              top: -135px;
+              left: 50px;
+            }
+
+            .after-one {
+              top: -200px;
+              left: 80px;
+            }
+
+            .before-two {
+              top: -50px;
+              left: 110px;
+            }
+
+            .after-two {
+              left: 20px;
+              top: -95px;
+            }
+
+            .before-three {
+              left: 150px;
+              top: -216px;
+            }
+
+            .after-three {
+              left: 200px;
+              top: -80px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .hrus-footer {
+    width: 100%;
+    display: block;
+    background-image: url(../src/img/hrusteam-footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &__wrapper {
+      width: 100%;
+      display: block;
+      margin: auto;
+
+      &_text {
+        font-family: Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        color: #ff0112;
+        display: block;
+        margin: auto;
+        width: 90%;
+        text-shadow: 2px 2px 0px #140000;
+        padding: 40px 0 60px 0;
+        text-align: center;
+      }
+
+      .button-wrapper{
+        text-decoration: none;
+      }
+
+      &_button {
+        padding: 20px 80px;
+        font-size: 14px;
+        font-weight: 100;
+        font-family: Arial Black, sans-serif;
+        color: #fff;
+        background-color: #4fd5d6;
+        cursor: pointer;
+        float: none;
+        margin: auto;
+        text-decoration: none;
+        border: none;
+        display: block;
+        &:hover {
+          -webkit-box-shadow: 1px 3px 19px 6px rgba(79, 213, 214, 0.28);
+          -moz-box-shadow: 1px 3px 19px 6px rgba(79, 213, 214, 0.28);
+          box-shadow: 1px 3px 19px 6px rgba(79, 213, 214, 0.28);
+        }
+      }
+
+      &_copyright {
+        padding: 100px 0 11px 0;
+        font-size: 15px;
+        display: block;
+        margin: auto;
+        text-align: center;
+        font-family: Proxima Nova, sans-serif;
+        color: #3e3e3e;
+      }
+    }
+  }
+}
